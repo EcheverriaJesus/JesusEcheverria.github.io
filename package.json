@@ -2,7 +2,7 @@
   "name": "portafolio_jesus_noe",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://echeverriajesus.github.io/JesusEcheverria.github.io/",
+  "homepage": "https://echeverriajesus.github.io/JesusEcheverria.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
