@@ -7,7 +7,7 @@ export default function Card_CV() {
         <p className="text-white tracking-wider text-base font-bold">Take a look at my CV</p>
         <p className="text-sm text-gray-300 tracking-wider font-semibold">-- Developer Web --</p>
         <a className="flex justify-center items-center text-white h-10 text-xl font-bold hover:text-yellow-500 "
-          href="/Documents/CV_JN.pdf" target="_blank">
+          href="/JesusEcheverria.github.io/Documents/CV_JN.pdf" target="_blank">
           SEE CV
         </a>
         <div className="flex w-full items-center justify-center">

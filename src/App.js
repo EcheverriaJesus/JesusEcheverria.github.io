@@ -30,11 +30,11 @@ function App() {
         </section>
         <section className='flex w-full h-auto justify-around pt-12 md:pt-20 lg:pt-32'>
           {[
-            "/build/Images/Blender.png",
-            "/Images/C.png",
-            "/Images/Git.png",
-            "/Images/Blender.png",
-            "/Images/Java.png"
+            "/JesusEcheverria.github.io/Images/Blender.png",
+            "/JesusEcheverria.github.io/Images/C.png",
+            "/JesusEcheverria.github.io/Images/Git.png",
+            "/JesusEcheverria.github.io/Images/Blender.png",
+            "/JesusEcheverria.github.io/Images/Java.png"
           ].map((image, index) => (
             <Logo_Tecnology key={index} image={image} alt="" />
           ))}
