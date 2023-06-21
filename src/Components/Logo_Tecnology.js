@@ -9,9 +9,9 @@ export default function Logo_Tecnology(props) {
           fill="url(&quot;#SvgjsLinearGradient2171&quot;)"></path>
         <defs>
           <linearGradient gradientTransform="rotate(0 0.5 0.5)" id="SvgjsLinearGradient2171">
-            <stop stop-opacity=" 1" stop-color="rgba(0, 227, 250)" offset="0"></stop>
-            <stop stop-opacity=" 1" stop-color="#FFFFFF" offset="0.48"></stop>
-            <stop stop-opacity=" 1" stop-color="#FFFFFF" offset="1"></stop>
+            <stop stopOpacity=" 1" stopColor="rgba(0, 227, 250)" offset="0"></stop>
+            <stop stopOpacity=" 1" stopColor="#FFFFFF" offset="0.48"></stop>
+            <stop stopOpacity=" 1" stopColor="#FFFFFF" offset="1"></stop>
           </linearGradient>
         </defs>
       </svg>

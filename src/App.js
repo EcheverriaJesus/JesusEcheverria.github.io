@@ -30,7 +30,7 @@ function App() {
         </main>
         <section className='flex w-full h-auto justify-around pt-12 md:pt-24'>
           {[
-            "/Images/Laravel.png",
+            "/../../../build/Images/Laravel.png",
             "/Images/C.png",
             "/Images/Git.png",
             "/Images/Blender.png",
@@ -45,12 +45,12 @@ function App() {
         </section>
       </header>
 
-      <body className='h-screen bg-white'>
+      <main className='h-screen bg-white'>
         <section className="hidden sm:flex py-5 justify-center bg-slate-700 w-full lg:hidden">
           <Card_CV />
         </section>
 
-      </body>
+      </main>
     </div>
   );
 }
