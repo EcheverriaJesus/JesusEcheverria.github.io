@@ -1,27 +1,21 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Sansita:ital,wght@0,400;0,700;1,400&display=swap');
+
+.fondo-header1 {
+  background-image: url("/public/Images/Fondo.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fondo-header2 {
+  background-image: url("/public/Images/Fondoheader.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -32,7 +26,89 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.cardContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 220px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  cursor: pointer;
+}
+
+.city {
+  font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 1.2px;
+  color: white;
+}
+
+.weather {
+  font-weight: 500;
+  font-size: 0.7em;
+  letter-spacing: 1.2px;
+  color: rgb(197, 197, 197);
+}
+
+.temp {
+  font-size: 1.8em;
+  color: white;
+}
+
+.minmaxContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.min,
+.max {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0px 20px;
+  gap: 4px;
+}
+
+.max {
+  align-items: flex-start;
+  border-left: 2px solid white;
+}
+
+.maxHeading,
+.minHeading {
+  font-size: 0.7em;
+  font-weight: 600;
+  color: white;
+}
+
+.maxTemp,
+.minTemp {
+  font-size: 0.6em;
+  font-weight: 500;
+  color: rgb(197, 197, 197);
 }
