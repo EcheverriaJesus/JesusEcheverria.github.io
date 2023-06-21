@@ -6,7 +6,7 @@ export default function NavBar() {
     <div>
       <Navbar className='md:bg-blue-900 text-white' fluid rounded>
   <Navbar.Brand href="/src/App.js" className='lg:pl-10'>
-    <img alt="Flowbite React Logo" className="mr-3 h-8 sm:h-9 rounded-full" src="/build/Images/Perfil.jpg"/>
+    <img alt="" className="mr-3 h-8 sm:h-9 rounded-full" src="/public/Images/Perfil.jpg"/>
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       Jesus Echeverria
     </span>

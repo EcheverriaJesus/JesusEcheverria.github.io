@@ -9,9 +9,9 @@ import Card_CV from './Components/Card_CV';
 function App() {
   return (
     <div className="">
-      <header className=" h-screen fondo-header1">
+      <header className="fondo-header1 h-screen lg:bg-whit">
         <NavBar />
-        <main className="flex w-full h-2/6 px-6 sm:h-1/2 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
+        <section className="flex w-full h-2/6 px-6 sm:h-1/2 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex py-5 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4">
             <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter font-LilitaOne tracking-widest">HI, I'M JESÚS NOÉ ECHEVERRIA MEDINA</h2>
             <h2 className="text-center text-xl lg:text-2xl text-yellow-300 font-semibold font-LilitaOne tracking-widest">COMPUTER SYSTEMS ENGINEER!</h2>
@@ -27,10 +27,10 @@ function App() {
           <section className="hidden lg:flex w-1/3 pt-16 justify-center hover:scale-110 ease-in duration-300">
             <Card_CV />
           </section>
-        </main>
-        <section className='flex w-full h-auto justify-around pt-12 md:pt-24'>
+        </section>
+        <section className='flex w-full h-auto justify-around pt-12 md:pt-20 lg:pt-32'>
           {[
-            "/../../../build/Images/Laravel.png",
+            "/build/Images/Blender.png",
             "/Images/C.png",
             "/Images/Git.png",
             "/Images/Blender.png",
@@ -40,7 +40,7 @@ function App() {
           ))}
         </section>
         {/* Card in the header for mobile */}
-        <section className="flex w-full pt-12 justify-center sm:hidden">
+        <section className="flex w-full pt-16 justify-center sm:hidden">
           <Card_CV />
         </section>
       </header>
