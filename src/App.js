@@ -5,7 +5,6 @@ import Logo_Tecnology from './Components/Logo_Tecnology';
 import NavBar from './Components/NavBar';
 import Button_Icon from './Components/Button_Icon';
 import Card_CV from './Components/Card_CV';
-import { Carousel } from 'flowbite-react';
 
 function App() {
   return (
@@ -32,7 +31,7 @@ function App() {
             <Card_CV />
           </section>
         </section>
-        <section className='flex w-full h-auto justify-around pt-12 md:pt-20 lg:pt-32'>
+        <section className='flex w-full h-auto justify-around pt-12 md:pt-20 lg:pt-32 lg:px-24'>
           {[
             "/JesusEcheverria.github.io/Images/Blender.png",
             "/JesusEcheverria.github.io/Images/C.png",
@@ -49,35 +48,15 @@ function App() {
         </section>
       </header>
 
-      <main className='h-screen degradado'>
-
-        <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
+      <main className='h-screen bg-[#e1e0e4] px-4 pt-6 md:px-24 md:pt-16'>
+      <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
         </section>
-
-
-        <Carousel className='w-full h-1/3 pt-16 '>
-          <img
-            alt=""
-            src="/JesusEcheverria.github.io/Images/Fondo.jpg"
-          />
-          <img
-            alt="..."
-            src="/JesusEcheverria.github.io/Images/Fondoheader.jpg"
-          />
-          <img
-            alt="..."
-            src="/JesusEcheverria.github.io/Images/Fondo.jpg"
-          />
-          <img
-            alt="..."
-            src="/JesusEcheverria.github.io/Images/Fondoheader.jpg"
-          />
-          <img
-            alt="..."
-            src="/JesusEcheverria.github.io/Images/Fondo.jpg"
-          />
-        </Carousel>
+        <div className='p-6 lg:p-8 bg-gradient-to-r bg-[#f2f7ff] border-gray-200 rounded-lg'>
+          <div className='flex justify-center'>
+            <h2 className='font-bold text-3xl md:text-4xl text-blue-600'>About Me</h2>
+          </div>
+        </div>
       </main>
     </div>
   );

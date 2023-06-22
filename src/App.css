@@ -6,21 +6,12 @@
   background-position: center;
 }
 
-.degradado{
-  background: linear-gradient(90deg, #000000, #0d174c);
-}
-
 .fondo-header2 {
   background-image: url("/public/Images/Fondoheader.jpg");
   background-size: cover;
   background-position: center;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
 }
@@ -42,7 +33,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
+  justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
