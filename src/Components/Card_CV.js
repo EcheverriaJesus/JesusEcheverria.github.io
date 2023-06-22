@@ -8,7 +8,15 @@ export default function Card_CV() {
         <p className="text-sm text-gray-300 tracking-wider font-semibold">-- Developer Web --</p>
         <a className="flex justify-center items-center text-white h-10 text-xl font-bold hover:text-yellow-500 "
           href="/JesusEcheverria.github.io/Documents/CV_JN.pdf" target="_blank">
-          SEE CV
+          <div class="notification text-xl ">
+                <span>V</span>
+                <span>E</span>
+                <span>R</span>
+                <span>_</span>
+                <span>C</span>
+                <span>V</span>
+              </div>
+              <h5 className='hover:scale-110 ease-in duration-300'>Jes</h5>
         </a>
         <div className="flex w-full items-center justify-center">
           <div className="flex flex-col items-center justify-center py-4 w-1/2">

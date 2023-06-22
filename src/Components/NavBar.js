@@ -14,7 +14,7 @@ export default function NavBar() {
   <Navbar.Toggle />
   <Navbar.Collapse className='lg:pr-10'>
     <Navbar.Link active href="#" className='md:text-white'>
-      <p> Home </p>
+      <p className="text-yellow-200"> Home </p>
     </Navbar.Link>
     <Navbar.Link href="#" className='md:text-white'>
       <p>
