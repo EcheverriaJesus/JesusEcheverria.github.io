@@ -12,10 +12,13 @@
   background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+} */
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
 }
 
 @keyframes App-logo-spin {
