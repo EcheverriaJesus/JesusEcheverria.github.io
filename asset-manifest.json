@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/JesusEcheverria.github.io/static/css/main.b693b57f.css",
-    "main.js": "/JesusEcheverria.github.io/static/js/main.d16b4e55.js",
+    "main.css": "/JesusEcheverria.github.io/static/css/main.6b2daab5.css",
+    "main.js": "/JesusEcheverria.github.io/static/js/main.9e057380.js",
     "static/js/787.16b9702e.chunk.js": "/JesusEcheverria.github.io/static/js/787.16b9702e.chunk.js",
     "static/media/Fondoheader.jpg": "/JesusEcheverria.github.io/static/media/Fondoheader.0405ad286070652b99bc.jpg",
     "static/media/Fondo.jpg": "/JesusEcheverria.github.io/static/media/Fondo.115cedaedecdd816ed79.jpg",
     "index.html": "/JesusEcheverria.github.io/index.html",
-    "main.b693b57f.css.map": "/JesusEcheverria.github.io/static/css/main.b693b57f.css.map",
-    "main.d16b4e55.js.map": "/JesusEcheverria.github.io/static/js/main.d16b4e55.js.map",
+    "main.6b2daab5.css.map": "/JesusEcheverria.github.io/static/css/main.6b2daab5.css.map",
+    "main.9e057380.js.map": "/JesusEcheverria.github.io/static/js/main.9e057380.js.map",
     "787.16b9702e.chunk.js.map": "/JesusEcheverria.github.io/static/js/787.16b9702e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b693b57f.css",
-    "static/js/main.d16b4e55.js"
+    "static/css/main.6b2daab5.css",
+    "static/js/main.9e057380.js"
   ]
 }
