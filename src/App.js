@@ -5,6 +5,7 @@ import Logo_Tecnology from './Components/Logo_Tecnology';
 import NavBar from './Components/NavBar';
 import Button_Icon from './Components/Button_Icon';
 import Card_CV from './Components/Card_CV';
+import About_Me from './Components/About_Me';
 
 function App() {
   return (
@@ -48,15 +49,11 @@ function App() {
         </section>
       </header>
 
-      <main className='h-screen bg-[#e1e0e4] px-4 pt-6 md:px-24 md:pt-16'>
+      <main className='h-auto pb-10 bg-[#e1e0e4] px-4 pt-6 md:px-24 md:pt-16'>
       <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
-        </section>
-        <div className='p-6 lg:p-8 bg-gradient-to-r bg-[#f2f7ff] border-gray-200 rounded-lg'>
-          <div className='flex justify-center'>
-            <h2 className='font-bold text-3xl md:text-4xl text-blue-600'>About Me</h2>
-          </div>
-        </div>
+        </section>   
+        <About_Me/>
       </main>
     </div>
   );

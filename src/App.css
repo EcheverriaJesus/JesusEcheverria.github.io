@@ -25,6 +25,22 @@
   }
 }
 
+.flotar {
+  animation: alternate infinite flotar 2s;
+}
+
+@keyframes flotar {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(0%) translateY(15%);
+  }
+}
+
+
+
+
 .notification {
   
   color: rgb(255, 255, 255);
