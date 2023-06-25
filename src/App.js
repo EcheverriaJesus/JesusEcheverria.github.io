@@ -32,8 +32,8 @@ function App() {
             <Card_CV />
           </section>
         </section>
-        <section className='flex w-full h-auto justify-around pt-12 md:pt-20 lg:pt-32 lg:px-24'>
-          {[
+        <section className='flex justify-around w-full h-auto px-8 lg:px-16 lg:pt-16'>
+        {[
             "/JesusEcheverria.github.io/Images/Blender.png",
             "/JesusEcheverria.github.io/Images/C.png",
             "/JesusEcheverria.github.io/Images/Git.png",
@@ -43,8 +43,9 @@ function App() {
             <Logo_Tecnology key={index} image={image} alt="" />
           ))}
         </section>
+       
         {/* Card in the header for mobile */}
-        <section className="flex w-full pt-16 justify-center sm:hidden">
+        <section className="flex w-full justify-center sm:hidden">
           <Card_CV />
         </section>
       </header>

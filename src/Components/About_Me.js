@@ -18,7 +18,7 @@ export default function About_Me() {
               </p>
           </div>
             <div className='flex '>
-              <img className="md:h-36 lg:h-64 rounded-full flotar" src="/JesusEcheverria.github.io/Images/Perfil.jpg" alt="" />
+              <img className="md:h-36 lg:h-64 rounded-full" src="/JesusEcheverria.github.io/Images/Perfil.jpg" alt="" />
             </div>
           </section>
         </div>
