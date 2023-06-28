@@ -32,7 +32,7 @@ function App() {
             <Card_CV />
           </section>
         </section>
-        <section className='flex justify-around w-full h-auto px-8 lg:px-16 lg:pt-16'>
+        <section className='flex justify-around w-full h-auto px-8 md:pt-2 lg:px-16 lg:pt-16'>
         {[
             "/JesusEcheverria.github.io/Images/Blender.png",
             "/JesusEcheverria.github.io/Images/C.png",
@@ -50,7 +50,7 @@ function App() {
         </section>
       </header>
 
-      <main className='h-auto pb-10 bg-[#e1e0e4] px-4 pt-6 md:px-24 md:pt-16'>
+      <main className='h-auto pb-10 bg-white px-4 pt-6 md:px-24 md:pt-16'>
       <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
         </section>   
