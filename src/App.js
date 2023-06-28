@@ -32,7 +32,7 @@ function App() {
             <Card_CV />
           </section>
         </section>
-        <section className='flex justify-around w-full h-auto px-8 md:pt-6 lg:px-16 lg:pt-16'>
+        <section className='flex justify-around w-full h-auto px-8 md:pt-5 lg:px-16 lg:pt-16'>
         {[
             "/JesusEcheverria.github.io/Images/Blender.png",
             "/JesusEcheverria.github.io/Images/C.png",
