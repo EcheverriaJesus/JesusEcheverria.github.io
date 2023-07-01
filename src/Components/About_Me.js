@@ -6,9 +6,7 @@ export default function About_Me() {
           <div className='flex'>
             <h2 className='font-bold text-3xl md:text-5xl text-blue-600'>WHO I'M?</h2>
           </div>
-          <div className='flex pt-8'>
-          </div>
-          <section className='flex flex-col w-full h-full gap-5 md:flex-row justify-between'>
+          <section className='flex flex-col w-full h-full gap-5 md:flex-row justify-between pt-8'>
           <div className='flex flex-col w-full text-justify md:w-2/3 gap-3'>
             <p className=''>
             I am Jesus Echeverria, a student of computer systems engineering at TECNM CAMPUS IGUALA GRO, MÉXICO. Currently, I am seeking opportunities that allow me to apply my knowledge and skills in a real-world environment.

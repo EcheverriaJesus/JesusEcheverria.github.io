@@ -4,12 +4,13 @@ export default function Card_Proyect(props) {
     return (
         <div className='flex flex-col items-center w-full h-auto p-5 rounded-lg shadow-lg bg-[#f2f7ff] mb-10'>
             <div className='flex pb-5'>
-                <img className="h-auto w-full rounded-lg hover:scale-[1.1] ease-in duration-300" src={ props.image } alt="" />
+                <img className="h-44 w-full rounded-lg hover:scale-[1.1] ease-in duration-300" src={ props.image } alt="" />
             </div>
             <div className='flex flex-col pb-5'>
-                <h2 className='font-bold text-3xl md:text-3xl text-blue-700 text-center pb-5'>{ props.title }</h2>
-
-                <p className='text-justify font-normal text-base text-gray-600'>{ props.description }</p>
+                <h2 className='font-bold text-3xl md:text-3xl text-blue-800 text-center pb-5'>{ props.title }</h2>
+                <p className='text-justify font-normal text-base text-gray-600 pb-5'>{ props.description }</p>
+                <p className='font-semibold text-base text-gray-600'>Made with:</p>
+                <p className='font-normal text-sm text-gray-600 pt-1'> { props.made }</p>
             </div>
             <div className='flotar hover:scale-125 ease-in duration-300'>
                 <a href={props.link} target="_blank" rel="noopener noreferrer">
