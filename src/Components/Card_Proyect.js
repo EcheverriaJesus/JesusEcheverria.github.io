@@ -3,15 +3,17 @@ import React from 'react'
 export default function Card_Proyect(props) {
     return (
         <div className='flex flex-col items-center w-full h-auto p-5 rounded-lg shadow-lg bg-[#f2f7ff] mb-10'>
-            <div className='flex pb-5'>
-                <img className="h-44 w-full rounded-lg hover:scale-[1.1] ease-in duration-300" src={ props.image } alt="" />
-            </div>
-            <div className='flex flex-col pb-5'>
-                <h2 className='font-bold text-3xl md:text-3xl text-blue-800 text-center pb-5'>{ props.title }</h2>
-                <p className='text-justify font-normal text-base text-gray-600 pb-5'>{ props.description }</p>
-                <p className='font-semibold text-base text-gray-600'>Made with:</p>
-                <p className='font-normal text-sm text-gray-600 pt-1'> { props.made }</p>
-            </div>
+            <img className="h-44 w-full rounded-lg hover:scale-[1.1] ease-in duration-300 mb-3" src={props.image} alt="" />
+            <section className='flex flex-col mb-3'>
+                <title className='flex justify-center items-center h-20'>
+                    <h2 className='font-bold text-3xl md:text-3xl text-blue-800 text-center pb-5'>{props.title}</h2>
+                </title>
+                <div>
+                    <p className='text-justify font-normal text-base text-gray-600 pb-5'>{props.description}</p>
+                    <p className='font-semibold text-base text-gray-600'>Made with:</p>
+                    <p className='font-normal text-sm text-gray-600 pt-1'> {props.made}</p>
+                </div>
+            </section>
             <div className='flotar hover:scale-125 ease-in duration-300'>
                 <a href={props.link} target="_blank" rel="noopener noreferrer">
                     <svg className='w-9' viewBox="0 0 24 24">
