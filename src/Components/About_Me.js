@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About_Me() {
   return (
-       <div className='p-6 lg:p-8 shadow-md rounded-lg h-auto'>
+       <div className='p-6 lg:p-8 shadow-md rounded-lg h-auto pb-10'>
           <div className='flex'>
             <h2 className='font-bold text-3xl md:text-5xl text-blue-600'>WHO I'M?</h2>
           </div>

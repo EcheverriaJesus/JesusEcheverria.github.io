@@ -60,11 +60,12 @@ function App() {
         {/* Tarjetas de proyectos */}
         <h2 className='font-bold text-3xl md:text-5xl text-blue-600 py-5 pl-6'>MY EXPERIENCE</h2>
 
-        <div className='grid grid-cols-3 w-full h-auto gap-7 p-6'>
+        <div className='flex flex-col md:grid grid-cols-3 w-full h-auto gap-7 p-6'>
         <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" link="https://github.com/EcheverriaJesus" title="Page About Developers" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
         <Card_Proyect image="/JesusEcheverria.github.io/Images/Barril_3D.jpg" link="https://github.com/EcheverriaJesus" title="Page About Developers" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
         <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D.jpg" link="https://github.com/EcheverriaJesus" title="Page About Developers" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
-        <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="Page About Developers" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
+        <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="CINTEOTL" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
+        <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus" title="CINTEOTL" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
         </div>
       </main>
     </div>
