@@ -69,9 +69,9 @@ function App() {
 
           <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK" description="This is a school project that focused on developing a school management system for a secondary school. The system allows efficient management of teachers, students, grades, schedules and includes CRUD operations for each of these modules." made="Framework Laravel, Tailwind CSS & Livewire"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" description="En este proyecto, he aplicado mis conocimientos en las tecnologías mencionadas a continuación con el objetivo de adquirir más experiencia y poder realizar procesos de manera más sencilla y optimizada." made="Framework Laravel, Tailwind CSS & Livewire"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D" description="I like 3D technology. I have had the opportunity to gain experience creating various prototypes in the Blender environment. This has allowed me to explore my creativity and develop strong skills in three-dimensional design." made="Blender"/>
 
         </div>
       </main>
