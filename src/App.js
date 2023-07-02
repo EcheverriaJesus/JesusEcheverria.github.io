@@ -62,16 +62,16 @@ function App() {
 
      
           <div className='flex flex-col md:grid grid-cols-3 w-full h-auto p-6 md:gap-7'>
-          
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" link="https://github.com/EcheverriaJesus/DesarrolladoresTECNM_ITI" title="Page About Developers" description="During my social service I created this page to put students about the updates that are made to the website of the Department of Systems and Computing of the TECNM Campus Iguala during their social service." made="HTML, Tailwind CSS & Framework-gob mx"/>
+
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" link="https://github.com/EcheverriaJesus/DesarrolladoresTECNM_ITI" title="DEVELOPERS" description="During my social service I created this page to put students about the updates that are made to the website of the Department of Systems and Computing of the TECNM Campus Iguala during their social service." made="HTML, Tailwind CSS & Framework-gob mx"/>
 
           <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL" description="This is a school project that focused on creating a website for a restaurant with a customer-facing interface and a BackOffice section for business users. A CRUD system for commercial management has been implemented, as well as a menu card." made="Framework Laravel & SASS"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK" description="This is a school project that focused on developing a school management system for a secondary school. The system allows efficient management of teachers, students, grades, schedules and includes CRUD operations for each of these modules." made="Framework Laravel, Tailwind CSS & Livewire"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS System" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="Objects in 3D" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D" description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa accusamus officia quia exercitationem esse ratione qui, minima in perferendis error iusto quos sequi possimus non doloremque voluptatem, ipsa minus."/>
 
         </div>
       </main>
