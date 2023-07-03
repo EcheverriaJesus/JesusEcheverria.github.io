@@ -58,10 +58,10 @@ function App() {
         <About_Me />
 
         {/* Tarjetas de proyectos */}
-        <h2 className='font-bold text-3xl md:text-5xl text-blue-600 py-5 pl-6'>MY EXPERIENCE</h2>
+        <h2 className='font-bold text-3xl md:text-5xl text-sky-500 py-5 pl-6'>MY EXPERIENCE</h2>
 
      
-          <div className='flex flex-col md:grid grid-cols-3 w-full h-auto p-6 md:gap-7'>
+          <div className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto p-6 md:gap-7'>
 
           <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" link="https://github.com/EcheverriaJesus/DesarrolladoresTECNM_ITI" title="DEVELOPERS" description="During my social service I created this page to put students about the updates that are made to the website of the Department of Systems and Computing of the TECNM Campus Iguala during their social service." made="HTML, Tailwind CSS & Framework-gob mx"/>
 
@@ -69,12 +69,13 @@ function App() {
 
           <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK" description="This is a school project that focused on developing a school management system for a secondary school. The system allows efficient management of teachers, students, grades, schedules and includes CRUD operations for each of these modules." made="Framework Laravel, Tailwind CSS & Livewire"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" description="En este proyecto, he aplicado mis conocimientos en las tecnologías mencionadas a continuación con el objetivo de adquirir más experiencia y poder realizar procesos de manera más sencilla y optimizada." made="Framework Laravel, Tailwind CSS & Livewire"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" description="In this project, I have applied my knowledge in the technologies mentioned below with the aim of acquiring more experience and being able to carry out processes in a simpler and more optimized way." made="Framework Laravel, Tailwind CSS & Livewire"/>
 
           <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D" description="I like 3D technology. I have had the opportunity to gain experience creating various prototypes in the Blender environment. This has allowed me to explore my creativity and develop strong skills in three-dimensional design." made="Blender"/>
 
         </div>
       </main>
+
     </div>
   );
 }

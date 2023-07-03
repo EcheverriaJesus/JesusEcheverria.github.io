@@ -38,7 +38,9 @@
   }
 }
 
-
+.fondode{
+  background: linear-gradient(#20082e, #9198e5);
+}
 
 
 .notification {

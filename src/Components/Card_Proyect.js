@@ -6,7 +6,7 @@ export default function Card_Proyect(props) {
             <img className="h-44 w-full rounded-lg hover:scale-[1.1] ease-in duration-300 mb-3" src={props.image} alt="" />
             <section className='flex flex-col mb-3'>
                 <title className='flex justify-center items-center h-20'>
-                    <h2 className='font-bold text-3xl md:text-3xl text-blue-800 text-center pb-5'>{props.title}</h2>
+                    <h2 className='font-bold text-3xl md:text-3xl text-gray-800 text-center pb-5'>{props.title}</h2>
                 </title>
                 <div>
                     <p className='text-justify font-normal text-base text-gray-600 pb-5'>{props.description}</p>
@@ -23,6 +23,23 @@ export default function Card_Proyect(props) {
                     </svg>
                 </a>
             </div>
+
+            <div className='flex flex-col w-full h-80 rounded-b-2xl shadow-2xl bg-white'>
+                <div className='flex bg-gradient-to-t from-[#50a7cf] to-[#254d72] w-full h-1/2 rounded-t-2xl p-2'>
+                
+                </div>
+                <div className='flex flex-col h-1/2 px-5 pt-5'>
+                    <h4 className='font-semibold text-sm'>SCHOOL BOOK "SISTEMA DE CONTROL ESCOLAR WEB</h4>
+                    
+                        <p className='font-semibold text-gray-700 pt-2'>Made with:</p>
+                        <p className='font-normal text-slate-500 text-xs'>Laravel, Tailwind CSS & Livewire</p>
+                        <div className=''>
+                            <button> See More</button>
+                        </div>
+
+                </div>
+            </div>
+
         </div>
     )
 }
