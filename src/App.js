@@ -63,15 +63,15 @@ function App() {
      
           <div className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto p-6 md:gap-7'>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" link="https://github.com/EcheverriaJesus/DesarrolladoresTECNM_ITI" title="DEVELOPERS" description="During my social service I created this page to put students about the updates that are made to the website of the Department of Systems and Computing of the TECNM Campus Iguala during their social service." made="HTML, Tailwind CSS & Framework-gob mx"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" title="DEVELOPERS (Page in ITI)"  made="HTML, Tailwind CSS & Framework-gob mx"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL" description="This is a school project that focused on creating a website for a restaurant with a customer-facing interface and a BackOffice section for business users. A CRUD system for commercial management has been implemented, as well as a menu card." made="Framework Laravel & SASS"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL (Web Site Restaurant)" made="Framework Laravel & SASS"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK" description="This is a school project that focused on developing a school management system for a secondary school. The system allows efficient management of teachers, students, grades, schedules and includes CRUD operations for each of these modules." made="Framework Laravel, Tailwind CSS & Livewire"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK (school management system)" made="Framework Laravel, Tailwind CSS & Livewire"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" description="In this project, I have applied my knowledge in the technologies mentioned below with the aim of acquiring more experience and being able to carry out processes in a simpler and more optimized way." made="Framework Laravel, Tailwind CSS & Livewire"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire"/>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D" description="I like 3D technology. I have had the opportunity to gain experience creating various prototypes in the Blender environment. This has allowed me to explore my creativity and develop strong skills in three-dimensional design." made="Blender"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D (self-learning)" made="Blender"/>
 
         </div>
       </main>
