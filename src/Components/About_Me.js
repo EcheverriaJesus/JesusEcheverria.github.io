@@ -15,9 +15,9 @@ export default function About_Me() {
               From an early age, I have been fascinated by the world of technology and computer science. The way technology can enhance our lives and transform society has always intrigued me.
               </p>
           </div>
-            <div className='flex '>
+            <div className='flex justify-center md:flex'>
               <a href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
-                <img className="md:h-36 lg:h-64 rounded-full flotar hover:grayscale cursor-pointer" src="/JesusEcheverria.github.io/Images/Perfil.jpg" alt="" />
+                <img className="h-24 md:h-36 lg:h-64 rounded-full flotar hover:grayscale cursor-pointer" src="/JesusEcheverria.github.io/Images/Perfil.jpg" alt="" />
               </a>
             </div>
           </section>

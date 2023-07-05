@@ -16,7 +16,6 @@ function App() {
         <section className="flex w-full h-2/6 px-6 sm:h-1/2 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex py-5 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4">
             <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter font-LilitaOne tracking-widest">HI, I'M JESÚS NOÉ ECHEVERRIA MEDINA</h2>
-
             <div>
               <h2 className="text-center text-xl lg:text-2xl text-yellow-300 font-semibold font-LilitaOne tracking-widest">COMPUTER SYSTEMS ENGINNER!</h2>
             </div>
@@ -25,7 +24,6 @@ function App() {
 
               <Button_Icon url="https://www.linkedin.com/in/jesus-echeverria/" path="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" />
 
-             {/*  <Button_Icon url="https://www.instagram.com/jesus_echeverria_01/" path="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z" /> */}
             </article>
           </section>
           {/* Card in the header */}
@@ -53,29 +51,28 @@ function App() {
 
       <main className='h-auto pb-10 bg-white px-4 pt-4 md:px-14 md:pt-8 lg:px-24'>
         <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
-        <Card_CV />
+          <Card_CV />
         </section>
         <About_Me />
 
         {/* Tarjetas de proyectos */}
         <h2 className='font-bold text-3xl md:text-5xl text-sky-500 py-5 pl-6'>MY EXPERIENCE</h2>
+        <section className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto p-6 md:gap-7'>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" title="DEVELOPERS (Page in ITI)" made="HTML, Tailwind CSS & Framework-gob mx" />
 
-     
-          <div className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto p-6 md:gap-7'>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL (Web Site Restaurant)" made="Framework Laravel & SASS" />
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" title="DEVELOPERS (Page in ITI)"  made="HTML, Tailwind CSS & Framework-gob mx"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK (school management system)" made="Framework Laravel, Tailwind CSS & Livewire" />
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL (Web Site Restaurant)" made="Framework Laravel & SASS"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire" />
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK (school management system)" made="Framework Laravel, Tailwind CSS & Livewire"/>
+          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D (self-learning)" made="Blender" url="#" />
+        </section>
 
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire"/>
-
-          <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D (self-learning)" made="Blender"/>
-
-        </div>
       </main>
+      <footer className='flex bg-black w-full h-64'>
 
+      </footer>
     </div>
   );
 }
