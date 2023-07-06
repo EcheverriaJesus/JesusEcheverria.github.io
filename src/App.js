@@ -48,16 +48,18 @@ function App() {
           <Card_CV />
         </section>
       </header>
-
-      <main className='h-auto pb-10 bg-white px-4 pt-4 md:px-14 md:pt-8 lg:px-24'>
+      {/* h-auto pb-10 bg-white px-4 pt-4 md:px-14 md:pt-8 lg:px-24 */}
+      <main className=''>
         <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
         </section>
-        <About_Me />
+        <div className='px-8 md:px-24 py-10'>
+          <About_Me />
+        </div>
 
         {/* Tarjetas de proyectos */}
-        <h2 className='font-bold text-3xl md:text-5xl text-sky-500 py-5 pl-6'>MY EXPERIENCE</h2>
-        <section className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto p-6 md:gap-7'>
+        <h2 className='font-bold text-3xl md:text-5xl text-blue-600 px-8 pb-7 md:px-24 md:py-7'>MY EXPERIENCE</h2>
+        <section className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto md:gap-7 px-8 md:px-24 md:py-7'>
           <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" title="DEVELOPERS (Page in ITI)" made="HTML, Tailwind CSS & Framework-gob mx" />
 
           <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL (Web Site Restaurant)" made="Framework Laravel & SASS" />
@@ -70,8 +72,8 @@ function App() {
         </section>
 
       </main>
-      <footer className='flex bg-black w-full h-64'>
-
+      <footer className='flex bg-gradient-to-t from-[#50a7cf] to-[#254d72]  w-full h-64'>
+        <div className='fondode w-full h-3'></div>
       </footer>
     </div>
   );
