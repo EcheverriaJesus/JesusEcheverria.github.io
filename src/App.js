@@ -11,9 +11,10 @@ import Card_Proyect from './Components/Card_Proyect';
 function App() {
   return (
     <div className="">
-      <header className=" h-screen fondo-header1 lg:bg-white">
+    
+      <header className="h-screen fondo-header1 lg:bg-white">
         <NavBar />
-        <section className="flex w-full h-2/6 px-6 sm:h-1/2 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
+        <section className="flex w-full h-2/6 px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex py-5 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4">
             <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter font-LilitaOne tracking-widest">HI, I'M JESÚS NOÉ ECHEVERRIA MEDINA</h2>
             <div>
@@ -72,7 +73,7 @@ function App() {
         </section>
 
       </main>
-      <footer className='flex bg-gradient-to-t from-[#50a7cf] to-[#254d72]  w-full h-64'>
+      <footer className='flex bg-[#292d32] w-full h-96 md:h-72'>
         <div className='fondode w-full h-3'></div>
       </footer>
     </div>

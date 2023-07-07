@@ -13,13 +13,14 @@
 }
 
 .App-logo {
-  animation:  alternate infinite App-logo-spin 20s;
+  animation: alternate infinite App-logo-spin 20s;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -33,21 +34,23 @@
   from {
     transform: translateX(0%);
   }
+
   to {
     transform: translateX(0%) translateY(15%);
   }
 }
 
-.fondode{
+.fondode {
   background: linear-gradient(90deg, rgb(255, 166, 0) 0%, rgb(255, 196, 35) 11%, rgb(153, 160, 59) 39%, rgba(70, 127, 123, 1) 61%, rgba(7, 58, 187, 1) 100%);
 }
-.fondodeg{
+
+.fondodeg {
   background: linear-gradient(180deg, rgb(214, 233, 241) 0%, rgb(224, 230, 233) 34%, rgb(255, 255, 255) 100%);
 }
 
 
 .notification {
-  
+
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px rgb(255, 0, 0);
   text-align: center;
@@ -104,7 +107,9 @@
 }
 
 @-webkit-keyframes levelup {
-  0%, 100% {
+
+  0%,
+  100% {
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
@@ -116,7 +121,9 @@
 }
 
 @keyframes levelup {
-  0%, 100% {
+
+  0%,
+  100% {
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
