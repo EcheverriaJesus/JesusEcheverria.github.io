@@ -14,7 +14,7 @@ function App() {
 
       <header className="h-screen fondo-header1 lg:bg-white">
         <NavBar />
-        <section className="flex w-full h-3/6 px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
+        <section id='home' className="flex w-full h-3/6 px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex py-5 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4">
             <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter font-LilitaOne tracking-widest">HI, I'M JESÚS NOÉ ECHEVERRIA MEDINA</h2>
             <div>
