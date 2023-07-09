@@ -1,7 +1,13 @@
 import React from 'react'
-import { Navbar } from 'flowbite-react';
+import { Navbar } from 'flowbite-react';/*  */
+/* import React, { useState } from 'react'; */
+
 
 export default function NavBar() {
+  /* const [activeSection, setActiveSection] = useState('Home');
+  const handleSetActiveSection = (section) => {
+    setActiveSection(section);
+  }; */
   return (
     <div>
       <Navbar className='fixed top-0 left-0 w-full z-50 text-black md:text-white md:bg-blue-900 lg:px-16' fluid rounded>
@@ -16,12 +22,20 @@ export default function NavBar() {
     <Navbar.Link active href="#" className='md:text-white'>
       <p className="text-yellow-200"> Home </p>
     </Navbar.Link>
-    <Navbar.Link href="#" className='md:text-white'>
+    <Navbar.Link href="#about-me" className='md:text-white '>
       <p>
         About Me
       </p>
     </Navbar.Link>
-    <Navbar.Link href="#" className='md:text-white'>
+   {/*  <Navbar.Link
+  href="#about-me"
+  className={`md:text-white ${activeSection === 'About Me' ? 'active' : ''}`}
+  onClick={() => handleSetActiveSection('About Me')}
+>
+  <p>About Me</p>
+</Navbar.Link> */}
+
+    <Navbar.Link href="#experience" className='md:text-white'>
       Experience
     </Navbar.Link>
     <Navbar.Link href="#" className='md:text-white'>
