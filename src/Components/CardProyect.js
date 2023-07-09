@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Card_Proyect(props) {
+export default function CardProyect(props) {
     return (
        
             <div className='flex flex-col w-full h-80 rounded-b-2xl shadow-2xl mb-5'>

@@ -6,12 +6,12 @@ import NavBar from './Components/NavBar';
 import Button_Icon from './Components/Button_Icon';
 import Card_CV from './Components/Card_CV';
 import About_Me from './Components/About_Me';
-import Card_Proyect from './Components/Card_Proyect';
+import Experience from './Components/Experience';
 
 function App() {
   return (
     <div className="">
-    
+
       <header className="h-screen fondo-header1 lg:bg-white">
         <NavBar />
         <section className="flex w-full h-3/6 px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
@@ -54,32 +54,18 @@ function App() {
         <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
         </section>
-      
-        <div id="about-me" className='px-8 md:px-24 py-16'>
+
+        <div id="about-me" className='px-8 md:px-24 pt-8'>
           <About_Me />
         </div>
 
-        {/* Tarjetas de proyectos */}
-        <div id="experience" >
-          <h2 className='font-bold text-3xl md:text-5xl text-blue-600 px-8 pb-7 md:px-24 md:py-7'>MY EXPERIENCE</h2>
-          <section className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto md:gap-7 px-8 md:px-24 md:py-7'>
-            <Card_Proyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" title="DEVELOPERS (Page in ITI)" made="HTML, Tailwind CSS & Framework-gob mx" />
-          
-            <Card_Proyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL (Web Site Restaurant)" made="Framework Laravel & SASS" />
-          
-            <Card_Proyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK (school management system)" made="Framework Laravel, Tailwind CSS & Livewire" />
-          
-            <Card_Proyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="POS SYSTEM (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire" />
-          
-            <Card_Proyect image="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" link="https://github.com/EcheverriaJesus" title="OBJECTS 3D (self-learning)" made="Blender" url="#" />
-          </section>
+        <div id="experience" className='md:pt-8'>
+          <Experience />
         </div>
 
       </main>
       <footer className='flex bg-[#292d32] w-full h-96 md:h-72'>
-        <div className='flex w-full h-16'>
-jesus
-        </div>
+
       </footer>
     </div>
   );
