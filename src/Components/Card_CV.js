@@ -1,6 +1,14 @@
 import React from 'react'
 
 export default function Card_CV() {
+
+  const scrollToSection = (e) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href');
+    const targetElement = document.querySelector(targetId);
+    targetElement.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="flex relative items-center justify-center">
       <div className="flex flex-col items-center justify-between py-2.5 px-5 rounded-md relative w-65 h-64 border backdrop-blur-sm md: bg-[#092549b9] lg:bg-[#FFFFFF42]">
@@ -28,7 +36,9 @@ export default function Card_CV() {
           </div>
           <div className="flex items-center flex-col justify-center py-4 w-1/2">
           <p className="text-sm text-white font-semibold pb-2">Experience</p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7v15h24v-15h-24zm22 13h-20v-11h15v5l1.5-1.5 1.5 1.5v-5h2v11zm-13-14h-2v-2c0-1.104.896-2 2-2h6c1.104 0 2 .896 2 2v2h-2v-1.5c0-.276-.224-.5-.5-.5h-5c-.276 0-.5.224-.5.5v1.5z" fill="#FFFFFF" /></svg>
+            <a href='#experience' onClick={scrollToSection}>
+              <svg className='cursor-pointer' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 7v15h24v-15h-24zm22 13h-20v-11h15v5l1.5-1.5 1.5 1.5v-5h2v11zm-13-14h-2v-2c0-1.104.896-2 2-2h6c1.104 0 2 .896 2 2v2h-2v-1.5c0-.276-.224-.5-.5-.5h-5c-.276 0-.5.224-.5.5v1.5z" fill="#FFFFFF" /></svg>
+            </a>
             </div>
         </div>
       </div>

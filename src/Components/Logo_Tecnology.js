@@ -15,7 +15,7 @@ export default function Logo_Tecnology(props) {
           </linearGradient>
         </defs>
       </svg>
-      <img className="flex absolute h-6 sm:h-12 md:h-14 lg:h-16 hover:grayscale cursor-pointer" src={ props.image} alt="" />
+        <img className="flex absolute h-6 sm:h-12 md:h-14 lg:h-16 hover:grayscale cursor-pointer" src={ props.image} alt="" />
     </div>
   );
 }
