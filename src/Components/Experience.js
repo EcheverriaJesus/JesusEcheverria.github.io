@@ -4,7 +4,10 @@ import CardProyect from './CardProyect'
 export default function Experience() {
   return (
     <div>
-    <h2 className='font-bold text-3xl md:text-5xl text-blue-600 px-8 pb-7 md:px-24 md:py-7'>MY EXPERIENCE</h2>
+    <div className='flex flex-col px-8 pb-7 md:px-24 md:py-5'>
+      <h2 className='font-bold text-3xl md:text-5xl text-blue-600 pb-4'>MY EXPERIENCE</h2>
+      <p className='font-normal text-sm text-justify text-slate-600'>During my career in the world of software development, I have had the opportunity to work on collaborative team projects, these experiences have allowed me to acquire a set of skills and knowledge, some of my projects are:</p>
+    </div>
     <section className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto md:gap-7 px-8 md:px-24 md:py-7'>
       <CardProyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" title="DEVELOPERS (Page in ITI)" made="HTML, Tailwind CSS & Framework-gob mx" />
     
