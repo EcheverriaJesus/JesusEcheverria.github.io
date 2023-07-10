@@ -33,7 +33,7 @@ export default function NavBar() {
             Experience
           </Navbar.Link>
           <Navbar.Link href="#" className='md:text-white'>
-            Services
+            Others Activities
           </Navbar.Link>
           <Navbar.Link href="#" className='md:text-white'>
             Contact
