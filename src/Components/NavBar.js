@@ -35,7 +35,7 @@ export default function NavBar() {
           <Navbar.Link href="#" className='md:text-white'>
             Others Activities
           </Navbar.Link>
-          <Navbar.Link href="#" className='md:text-white'>
+          <Navbar.Link href="#footer" className='md:text-white' onClick={scrollToSection}>
             Contact
           </Navbar.Link>
           <Navbar.Link href="/JesusEcheverria.github.io/Documents/CV_JN.pdf" className='md:text-white'>

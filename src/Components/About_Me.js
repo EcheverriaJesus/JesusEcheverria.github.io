@@ -14,7 +14,7 @@ export default function About_Me() {
           </p>
         </div>
       </section>
-      <section className='flex justify-center py-10 w-auto md:p-0'>
+      <section className='flex justify-center items-center py-10 w-auto md:p-0'>
         <a href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
           <img className="h-56 md:h-36 lg:h-64 rounded-full flotar hover:grayscale cursor-pointer" src="/JesusEcheverria.github.io/Images/Perfil.jpg" alt="" />
         </a>

@@ -10,7 +10,7 @@ export default function Card_CV() {
   };
 
   return (
-    <div className="flex relative items-center justify-center">
+    <div className="flex relative items-center justify-center scr">
       <div className="flex flex-col items-center justify-between py-2.5 px-5 rounded-md relative w-65 h-64 border backdrop-blur-sm md: bg-[#092549b9] lg:bg-[#FFFFFF42]">
         <p className="text-white tracking-wider text-base font-bold">Take a look at my CV</p>
         <p className="text-sm text-gray-300 tracking-wider font-semibold">-- Developer Web --</p>
