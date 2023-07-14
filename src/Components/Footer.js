@@ -13,7 +13,7 @@ export default function Footer() {
 
       <div className='flex flex-col justify-center items-center border-b py-5'>
         <h3 className='text-3xl text-white font-bold pb-3'>Contact me</h3>
-        <p className='text-sm text-white'>- ✔️ Work becomes easier when it's done as a team. 💼 -</p>
+        <p className='text-sm text-white px-12 md:px-24'>- ✔️ Work becomes easier when it's done as a team. 💼 -</p>
       </div>
 
       <section className='flex flex-col justify-center items-center md:grid grid-cols-2 px-24'>
