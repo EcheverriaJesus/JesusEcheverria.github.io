@@ -32,7 +32,7 @@ export default function NavBar() {
           <Navbar.Link href="#experience" className='md:text-white' onClick={scrollToSection}>
             Experience
           </Navbar.Link>
-          <Navbar.Link href="#" className='md:text-white'>
+          <Navbar.Link href="#Activities" className='md:text-white' onClick={scrollToSection}>
             Others Activities
           </Navbar.Link>
           <Navbar.Link href="#footer" className='md:text-white' onClick={scrollToSection}>
