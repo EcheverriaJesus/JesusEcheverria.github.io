@@ -18,9 +18,9 @@ function App() {
         <NavBar />
         <section id='home' className="flex w-full h-auto px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex pt-20 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4 md:pt-40 scr">
-            <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter font-LilitaOne tracking-widest">HI, I'M JESÚS NOÉ ECHEVERRIA MEDINA</h2>
+            <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter font-LilitaOne tracking-widest">HOLA, SOY JESÚS NOÉ ECHEVERRIA MEDINA</h2>
             <div>
-              <h2 className="text-center text-xl lg:text-2xl text-yellow-300 font-semibold font-LilitaOne tracking-widest">COMPUTER SYSTEMS ENGINNER!</h2>
+              <h2 className="text-center text-xl lg:text-2xl text-yellow-300 font-semibold font-LilitaOne tracking-widest">INGENIERO EN SISTEMAS COMPUTACIONALES!</h2>
             </div>
 
             <article className="flex gap-5 pt-5">

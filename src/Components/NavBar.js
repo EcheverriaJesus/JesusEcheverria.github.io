@@ -22,21 +22,21 @@ export default function NavBar() {
         <Navbar.Toggle />
         <Navbar.Collapse className='lg:pr-10'>
           <Navbar.Link href="#home" className='md:text-white' onClick={scrollToSection}> {/* Tenia active antes del href */}
-            <p className="md:text-white"> Home </p>
+            <p className="md:text-white"> Inicio </p>
           </Navbar.Link>
           <Navbar.Link href="#about-me" className='md:text-white' onClick={scrollToSection}>
             <p>
-              About Me
+              Acerca De
             </p>
           </Navbar.Link>
           <Navbar.Link href="#experience" className='md:text-white' onClick={scrollToSection}>
-            Experience
+            Experiencia
           </Navbar.Link>
           <Navbar.Link href="#Activities" className='md:text-white' onClick={scrollToSection}>
-            Others Activities
+            Otras Actividades
           </Navbar.Link>
           <Navbar.Link href="#footer" className='md:text-white' onClick={scrollToSection}>
-            Contact
+            Contacto
           </Navbar.Link>
           <Navbar.Link href="/JesusEcheverria.github.io/Documents/CV_JN.pdf" className='md:text-white'>
             <svg className='hidden w-6 md:flex hover:scale-125 ease-in duration-300' viewBox="0 0 24 24" fillRule="evenodd">

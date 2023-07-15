@@ -9,7 +9,7 @@ export default function CardProyect(props) {
                 </figure>
                 <div className='flex flex-col h-1/2 px-5 py-4 rounded-b-2xl bg-white'>
                     <h4 className='font-semibold text-sm'>{ props.title }</h4>
-                    <p className='font-semibold text-gray-700 pt-2'>Made with:</p>
+                    <p className='font-semibold text-gray-700 pt-2'>Hecho con:</p>
                     <p className='font-normal text-slate-500 text-xs pb-3'>{ props.made }</p>
                     <div className='flex justify-center'>
                         <div className='flex gap-2 py-2 px-5 rounded-2xl cursor-pointer bg-[#e3fff9] hover:scale-[1.1] ease-in duration-300 hover:text-black hover:font-semibold'>
@@ -19,7 +19,7 @@ export default function CardProyect(props) {
                                     fill="#000000" />
                             </svg>
                             <a href={ props.url } rel="noopener noreferrer">
-                                <button className='text-gray-700'> See More</button>
+                                <button className='text-gray-700'> Ver mas</button>
                             </a>
                         </div>
                     </div>

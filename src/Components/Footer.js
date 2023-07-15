@@ -11,17 +11,17 @@ export default function Footer() {
       </figure>
 
       <div className='flex flex-col justify-center items-center border-b py-5'>
-        <h3 className='text-3xl text-white font-bold pb-3'>Contact me</h3>
-        <p className='text-sm text-white px-12 md:px-24'>- ✔️ Work is easier in a team.. 💼 -</p>
+        <h3 className='text-3xl text-white font-bold pb-3'>Contáctame</h3>
+        <p className='text-sm text-white px-12 md:px-24'>- ✔️ EL TRABAJO ES MÁS FÁCIL EN EQUIPO 💼 -</p>
       </div>
 
       <section className='flex flex-col justify-center items-center md:grid grid-cols-2 px-24'>
         <div className='flex justify-center items-center flex-col h-auto gap-2 py-5'>
           <svg className='w-10 animate-bounce' viewBox="0 0 24 24"><path d="m9.001 13.022h-3.251c-.412 0-.75.335-.75.752 0 .188.071.375.206.518 1.685 1.775 4.692 4.945 6.069 6.396.189.2.452.312.725.312.274 0 .536-.112.725-.312 1.377-1.451 4.385-4.621 6.068-6.396.136-.143.207-.33.207-.518 0-.417-.337-.752-.75-.752h-3.251v-9.02c0-.531-.47-1.002-1-1.002h-3.998c-.53 0-1 .471-1 1.002zm4.498-8.522v10.022h3.008l-4.507 4.751-4.507-4.751h3.008v-10.022z" fill="#FFFFFF" /></svg>
-          <a className='flex justify-center items-center bg-white text-black text-xs w-28 h-8 rounded-md hover:scale-90 ease-in duration-300' href='mailto:jesus.echeverria017@gmail.com'>Send Message</a>
+          <a className='flex justify-center items-center bg-white text-black text-xs w-28 h-8 rounded-md hover:scale-90 ease-in duration-300' href='mailto:jesus.echeverria017@gmail.com'>Enviar Mensaje</a>
         </div>
         <div className='flex flex-col justify-center items-center h-full w-full'>
-          <h4 className='text-white font-semibold text-md pb-5'>Social:</h4>
+          <h4 className='text-white font-semibold text-md pb-5'>Redes Sociales:</h4>
           <div className='flex gap-5'>
 
             <RedesSociales url="https://www.facebook.com/jesus.echeverria.10441861/" path="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z" size="w-6" />
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
       </section>
       <div className='flex justify-center items-center py-5 px-12 text-center md:px-24'>
-        <h3 className='text-white text-xs font-mono'>Made with React Js and a great passion for software development ⚛️ 💻...</h3>
+        <h3 className='text-white text-xs font-mono'>HECHO CON REACT JS Y UNA GRAN PASIÓN POR EL DESARROLLO DE SOFTWARE... ⚛️ 💻</h3>
       </div>
       
     </div>
