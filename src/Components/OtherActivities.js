@@ -24,8 +24,8 @@ export default function OtherActivities() {
         </div>
         <div className='w-full text-justify space-y-3 md:w-7/12'>
           <h3 className='text-center font-bold text-3xl md:text-5xl text-blue-600 md:text-justify'>Instalación de Camaras</h3>
-          <h3 className='font-bold text-base md:text-lg'>Durante mi servicio social, Realice una instalacion CCVT junto con otros compañeros.</h3>
-          <p className='font-normal text-sm text-justify text-slate-600'>He realizado la instalacion de varias camaras en diferentes laboratorios en el tecnologico, gracias a esta experincia hoy tengo el conocimiento de lo que se reuiqere para llevar a cabo este proceso en algun otro lugar.</p>
+          <h3 className='font-bold text-base md:text-lg'>Durante mi servicio social, Realice una instalacion CCTV junto con otros compañeros.</h3>
+          <p className='font-normal text-sm text-justify text-slate-600'>He realizado la instalacion de varias camaras en diferentes laboratorios en el tecnologico, gracias a esta experincia hoy tengo el conocimiento de lo que se requiere para llevar a cabo este proceso en algun otro lugar.</p>
         </div>
         
       </section>

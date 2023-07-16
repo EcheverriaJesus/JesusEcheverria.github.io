@@ -18,7 +18,7 @@ export default function Experience() {
     
       <CardProyect image="/JesusEcheverria.github.io/Images/sistemaVenta.jpg" link="https://github.com/EcheverriaJesus/SistemaPuntoVenta" title="Punto de Venta (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire" />
     
-      <CardProyect image="/JesusEcheverria.github.io/Images/Bote_3D.png" link="https://github.com/EcheverriaJesus" title="Objectos 3D (Autoaprendizaje))" made="Blender" url="#" 
+      <CardProyect image="/JesusEcheverria.github.io/Images/Bote_3D.png" link="https://github.com/EcheverriaJesus" title="Objectos 3D (Autoaprendizaje)" made="Blender" url="#" 
         
       />
     </section>
