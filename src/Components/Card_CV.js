@@ -11,24 +11,25 @@ export default function Card_CV() {
 
   return (
     <div className="flex relative items-center justify-center scr">
-      <div className="flex flex-col items-center justify-between py-2.5 px-5 rounded-md relative w-65 h-72 border backdrop-blur-sm md: bg-[#092549b9] lg:bg-[#FFFFFF42]">
-        <p className="text-white tracking-wider text-base font-bold">Hecha un vistazo a mi CV</p>
-        <p className="text-sm text-gray-300 tracking-wider font-semibold">-- Desarrollador Web --</p>
-        <div className="notification text-xl">
-          <span>V</span>
-          <span>E</span>
-          <span>R</span>
-          <span> </span>
-          <span> </span>
-          <span>C</span>
-          <span>V</span>
-        </div>
-        <a className='pt-5' href="/JesusEcheverria.github.io/Documents/CV_JN.pdf" target="_blank">
-          <svg className='w-9' viewBox="0 0 24 24" fillRule="evenodd">
-            <path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z" fill="#FFFF00"/>
-          </svg>
-        </a>
-
+      <div className="flex flex-col items-center justify-between py-2.5 px-3 rounded-md relative w-60 h-72 border backdrop-blur-sm md: bg-[#092549b9] lg:bg-[#81fcec27]">
+       <div className='flex flex-col justify-around items-center w-full h-full'>
+         <p className="text-white tracking-wider text-base font-bold">Hecha un vistazo a mi CV</p>
+         <p className="text-sm text-gray-300 tracking-wider font-semibold">-- Desarrollador Web --</p>
+         <div className="notification text-xl">
+           <span>V</span>
+           <span>E</span>
+           <span>R</span>
+           <span> </span>
+           <span>C</span>
+           <span>V</span>
+         </div>
+         <a className='pt-5' href="/JesusEcheverria.github.io/Documents/CV_JN.pdf" target="_blank">
+           <svg className='w-9 animate-bounce' viewBox="0 0 24 24" fillRule="evenodd">
+             <path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z" fill="#FFFF00"/>
+           </svg>
+         </a>
+        
+       </div>
         <div className="flex w-full items-center justify-center">
           <div className="flex flex-col items-center justify-center py-4 w-1/2">
             <p className="text-sm text-white font-semibold pb-2">Contacto</p>
