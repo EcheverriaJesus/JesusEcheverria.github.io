@@ -18,7 +18,7 @@ function App() {
       <header className="h-screen fondo-header1 lg:bg-white">
         <NavBar />
         <section id='home' className="flex w-full h-auto px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
-          <section className="flex pt-20 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4 md:pt-40 scr">
+          <section className="flex pt-20 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4 md:pt-40 aparecer">
             <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter font-LilitaOne tracking-widest">HOLA, SOY JESÚS NOÉ ECHEVERRIA MEDINA</h2>
             <div>
               <h2 className="text-center text-xl lg:text-2xl text-yellow-300 font-semibold font-LilitaOne tracking-widest">INGENIERO EN SISTEMAS COMPUTACIONALES!</h2>
@@ -36,7 +36,7 @@ function App() {
           </section>
         </section>
 
-        <section className='flex justify-around w-full py-6 px-8 md:pt-5 lg:px-16 lg:pt-16 scr'>
+        <section className='flex justify-around w-full py-6 px-8 md:pt-5 lg:px-16 lg:pt-16 aparecer'>
           {[
             "/JesusEcheverria.github.io/Images/Blender.png",
             "/JesusEcheverria.github.io/Images/C.png",

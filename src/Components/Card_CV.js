@@ -10,18 +10,13 @@ export default function Card_CV() {
   };
 
   return (
-    <div className="flex relative items-center justify-center scr">
+    <div className="flex relative items-center justify-center aparecer">
       <div className="flex flex-col items-center justify-between py-2.5 px-3 rounded-md relative w-60 h-72 border backdrop-blur-sm md: bg-[#092549b9] lg:bg-[#81fcec27]">
        <div className='flex flex-col justify-around items-center w-full h-full'>
          <p className="text-white tracking-wider text-base font-bold">Hecha un vistazo a mi CV</p>
          <p className="text-sm text-gray-300 tracking-wider font-semibold">-- Desarrollador Web --</p>
-         <div className="notification text-xl">
-           <span>V</span>
-           <span>E</span>
-           <span>R</span>
-           <span> </span>
-           <span>C</span>
-           <span>V</span>
+         <div className="text-xl inspire font-bold text-white">
+           <span className='tracking-widest'>VER CV</span>
          </div>
          <a className='pt-5' href="/JesusEcheverria.github.io/Documents/CV_JN.pdf" target="_blank">
            <svg className='w-9 animate-bounce' viewBox="0 0 24 24" fillRule="evenodd">

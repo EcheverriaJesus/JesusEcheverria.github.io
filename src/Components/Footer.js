@@ -12,7 +12,7 @@ export default function Footer() {
 
       <div className='flex flex-col justify-center items-center border-b py-5'>
         <h3 className='text-3xl text-white font-bold pb-3'>Contáctame</h3>
-        <p className='text-sm text-white px-12 md:px-24'>- ✔️ EL TRABAJO ES MÁS FÁCIL EN EQUIPO 💼 -</p>
+        <p className='text-sm text-white px-10 md:px-24'>- ✔️ EL TRABAJO ES MÁS FÁCIL EN EQUIPO 💼 -</p>
       </div>
 
       <section className='flex flex-col justify-center items-center md:grid grid-cols-2 px-24'>
