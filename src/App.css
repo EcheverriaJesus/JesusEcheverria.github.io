@@ -89,3 +89,14 @@
     color: yellow;
   }
 }
+
+/*  */
+
+.experience-container {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.experience-container.animate-fadeIn {
+  opacity: 1;
+}

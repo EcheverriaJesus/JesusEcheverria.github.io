@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function CardProyect(props) {
     return (
-        <div className='flex flex-col w-full h-80 rounded-b-2xl shadow-2xl mb-5'>
+        <div className='flex flex-col w-full h-80 rounded-b-2xl shadow-2xl mb-5' data-aos="zoom-out-up">
             <figure className='flex justify-center bg-gradient-to-t from-[#50a7cf] to-[#254d72] w-full h-1/2 rounded-t-2xl p-2'>
                 <img className="h-6/7 rounded-lg hover:scale-[1.05] ease-in-out duration-300" src={props.image} alt="" />
             </figure>

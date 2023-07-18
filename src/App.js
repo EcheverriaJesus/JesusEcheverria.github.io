@@ -60,7 +60,7 @@ function App() {
           <Card_CV />
         </section>
 
-        <div id="about-me" className='px-8 md:px-12 lg:px-24 pt-8'>
+        <div id="about-me" className='px-8 md:px-12 lg:px-24 pt-8' data-aos="fade-right">
           <About_Me />
         </div>
 
@@ -77,7 +77,7 @@ function App() {
         </div>
 
       </main>
-      <div id="footer" className='pt-8'>
+      <div id="footer" className='pt-8' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <Footer />
       </div>
     </div>
