@@ -9,11 +9,12 @@ import About_Me from './Components/About_Me';
 import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import OtherActivities from './Components/OtherActivities';
+import Proyect3D from './Views/Proyect3D';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="">
-
       <header className="h-screen fondo-header1 lg:bg-white">
         <NavBar />
         <section id='home' className="flex w-full h-auto px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
@@ -66,6 +67,10 @@ function App() {
         <div id="experience" className='pt-8'>
           <Experience />
         </div>
+
+        <Routes>
+          <Route path='/Experi' element={<Proyect3D />} />
+        </Routes>
 
         <div id="Activities" className='pt-8'>
           <OtherActivities />
