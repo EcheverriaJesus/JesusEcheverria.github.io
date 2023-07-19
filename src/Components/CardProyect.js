@@ -1,5 +1,7 @@
 import React from 'react'
 /* import { Link } from 'react-router-dom' */
+/* import Proyect3D from './Views/Proyect3D';
+import { Routes, Route, Link } from 'react-router-dom' */
 
 export default function CardProyect(props) {
     return (
