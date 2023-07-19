@@ -9,8 +9,8 @@ import About_Me from './Components/About_Me';
 import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import OtherActivities from './Components/OtherActivities';
-import Proyect3D from './Views/Proyect3D';
-import { Routes, Route } from 'react-router-dom';
+/* import Proyect3D from './Views/Proyect3D';
+import { Routes, Route } from 'react-router-dom'; */
 
 function App() {
   return (
@@ -54,7 +54,6 @@ function App() {
         </section>
       </header>
 
-      {/* h-auto pb-10 bg-white px-4 pt-4 md:px-14 md:pt-8 lg:px-24 */}
       <main className=''>
         <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
@@ -68,9 +67,9 @@ function App() {
           <Experience />
         </div>
 
-        <Routes>
+        {/* <Routes>
           <Route path='/Experi' element={<Proyect3D />} />
-        </Routes>
+        </Routes> */}
 
         <div id="Activities" className='pt-8'>
           <OtherActivities />
