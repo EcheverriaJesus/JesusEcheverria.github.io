@@ -2,20 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Footer from './Components/Footer';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Proyect3D from './Views/Proyect3D'
 
-const router = createBrowserRouter([
+import { createHashRouter, RouterProvider } from 'react-router-dom';
+import Footer from './Components/Footer';
+
+const router = createHashRouter([
   {
     path: "/",
     element: <App />
+
   },
   {
-    path: "/Jesus",
+    path: "/Footer",
     element: <Footer />
+
   },
-]);
+  {
+    path: "/Prueba",
+    element: <Proyect3D />
+
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

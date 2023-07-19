@@ -10,11 +10,6 @@ import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import OtherActivities from './Components/OtherActivities';
 
-
-/* import Proyect3D from './Views/Proyect3D';
-import { Routes, Route, Link } from 'react-router-dom' */
-
-
 function App() {
   return (
     <div className="">
@@ -69,11 +64,6 @@ function App() {
         <div id="experience" className='pt-8'>
           <Experience />
         </div>
-
-        {/* <Routes>
-          <Route path='/Experi' element={<Proyect3D />} />
-        </Routes> */}
-       
 
         <div id="Activities" className='pt-8'>
           <OtherActivities />
