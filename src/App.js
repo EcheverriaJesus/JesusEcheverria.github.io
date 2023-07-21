@@ -73,8 +73,8 @@ function App() {
       <div id="footer" className='pt-8' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <Footer />
       </div>
+            
     </div>
   );
 }
-
 export default App;
