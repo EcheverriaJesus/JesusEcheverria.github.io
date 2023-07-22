@@ -12,11 +12,12 @@ export default function PosSystem() {
     <div className='flex flex-col md:flex-row-reverse md:items-center md:gap-14 lg:h-full'>
       <section className='flex h-72 w-full md:h-80 lg:h-5/6 bg-[#1f2937] rounded-lg'>
         <Carousel>
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem2.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem2.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem2.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem/PosSystem.png" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem/PosSystem2.png" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem/PosSystem3.png" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem/PosSystem4.png" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem/PosSystem5.png" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/PosSystem/PosSystem6.png" />
         </Carousel>
       </section>
 

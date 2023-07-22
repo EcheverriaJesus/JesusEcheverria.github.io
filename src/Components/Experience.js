@@ -13,9 +13,9 @@ export default function Experience() {
     
       <CardProyect image="/JesusEcheverria.github.io/Images/Cinteolt.jpg" link="https://github.com/EcheverriaJesus/Cinteotl" title="CINTEOTL (Sitio Web Restaurante)" made="Framework Laravel & SASS" url="/Cinteotl" />
     
-      <CardProyect image="/JesusEcheverria.github.io/Images/SCHOOLBOOK3.jpg" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK (Sistema de Control Escolar)" made="Framework Laravel, Tailwind CSS & Livewire" url="/SCHOOLBOOK" />
+      <CardProyect image="/JesusEcheverria.github.io/Images/SchoolBook/SCHOOLBOOK.png" link="https://github.com/EcheverriaJesus/SCHOOLBOOK" title="SCHOOL BOOK (Sistema de Control Escolar)" made="Framework Laravel, Tailwind CSS & Livewire" url="/SCHOOLBOOK" />
     
-      <CardProyect image="/JesusEcheverria.github.io/Images/PosSystem.jpg" title="Punto de Venta (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire" url="/POSCRUD"/>
+      <CardProyect image="/JesusEcheverria.github.io/Images/PosSystem/PosSystem6.png" title="Punto de Venta (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire" url="/POSCRUD"/>
     
       <CardProyect image="/JesusEcheverria.github.io/Images/Bote_3D.png" link="https://github.com/EcheverriaJesus" title="Objectos 3D (Autoaprendizaje)" made="Blender" url="/Proyect3D" />
     </section>
