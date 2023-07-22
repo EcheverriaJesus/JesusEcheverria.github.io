@@ -2,27 +2,38 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from './reportWebVitals'
 import Proyect3D from './Views/Proyect3D'
-
+import PosSystem from './Views/PosSystem'
+import Developers from './Views/Developers'
+import SchoolBook from './Views/SchoolBook'
+import Cinteolt from './Views/Cinteotl'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
-import Footer from './Components/Footer';
 
 const router = createHashRouter([
   {
     path: "/",
     element: <App />
-
   },
   {
-    path: "/Footer",
-    element: <Footer />
-
+    path: "/Developers",
+    element: <Developers />
   },
   {
-    path: "/Prueba",
+    path: "/Cinteotl",
+    element: <Cinteolt />
+  },
+  {
+    path: "/SCHOOLBOOK",
+    element: <SchoolBook />
+  },
+  {
+    path: "/POSCRUD",
+    element: <PosSystem />
+  },
+  {
+    path: "/Proyect3D",
     element: <Proyect3D />
-
   }
 ])
 

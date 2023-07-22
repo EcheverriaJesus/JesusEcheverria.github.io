@@ -7,7 +7,7 @@ export default function ButtonIcon(props) {
                 <svg className={ props.size} viewBox="0 0 24 24">
                     <path
                         d={ props.path}
-                        fill="#ffffff" />
+                        fill={ props.fill } />
                 </svg>
             </a>
         </div>
