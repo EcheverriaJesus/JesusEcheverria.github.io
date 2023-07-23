@@ -12,7 +12,7 @@ export default function Cinteotl() {
     <div className='flex flex-col md:flex-row-reverse md:items-center md:gap-14 lg:h-full'>
       <section className='flex h-72 w-full md:h-80 lg:h-5/6 bg-[#1f2937] rounded-lg'>
         <Carousel>
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Cinteolt.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Cinteolt/Cinteolt.jpg" />
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Cinteolt/Cinteotl2.jpg" />
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Cinteolt/Cinteotl3.png" />
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Cinteolt/Cinteotl4.png" />

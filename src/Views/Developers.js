@@ -12,11 +12,11 @@ export default function Developers() {
     <div className='flex flex-col md:flex-row-reverse md:items-center md:gap-14 lg:h-full'>
       <section className='flex h-72 w-full md:h-80 lg:h-5/6 bg-[#1f2937] rounded-lg'>
         <Carousel>
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Developers/Developers.jpg" />
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Developers/Developers2.jpg" />
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Developers/Developers3.jpg" />
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Developers/Developers4.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Developers/Developers.jpg" />
         </Carousel>
       </section>
 

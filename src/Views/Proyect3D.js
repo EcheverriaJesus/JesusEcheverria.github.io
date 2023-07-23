@@ -11,11 +11,11 @@ export default function Proyect3D() {
     <div className='flex flex-col md:flex-row-reverse md:items-center md:gap-14 lg:h-full'>
       <section className='flex h-72 w-full md:h-80 lg:h-5/6 bg-[#1f2937] rounded-lg'>
         <Carousel>
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Barril_3D.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Bote_3D.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Bote_3D_2.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Casa_3D.jpg" />
-          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/Cañon_3D.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/3D/Barril_3D.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/3D/Bote_3D.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/3D/Bote_3D_2.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/3D/Casa_3D.jpg" />
+          <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/3D/Cañon_3D.jpg" />
         </Carousel>
       </section>
 

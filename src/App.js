@@ -36,18 +36,18 @@ function App() {
 
         <section className='flex justify-around w-full py-6 px-8 md:pt-5 lg:px-16 lg:pt-16 aparecer'>
           {[
-            "/JesusEcheverria.github.io/Images/Blender.png",
-            "/JesusEcheverria.github.io/Images/C.png",
-            "/JesusEcheverria.github.io/Images/Git.png",
-            "/JesusEcheverria.github.io/Images/Laravel.png",
-            "/JesusEcheverria.github.io/Images/Java.png"
+            "/JesusEcheverria.github.io/Images/Logos/Blender.png",
+            "/JesusEcheverria.github.io/Images/Logos/C.png",
+            "/JesusEcheverria.github.io/Images/Logos/Git.png",
+            "/JesusEcheverria.github.io/Images/Logos/Laravel.png",
+            "/JesusEcheverria.github.io/Images/Logos/Java.png"
           ].map((image, index) => (
             <Logo_Tecnology key={index} image={image} alt="" />
           ))}
         </section>
 
         {/* Card in the header for mobile */}
-        <section className="flex w-full justify-center sm:hidden">
+        <section className="flex w-full h-auto justify-center sm:hidden">
           <Card_CV />
         </section>
       </header>
