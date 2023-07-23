@@ -22,9 +22,9 @@ export default function Developers() {
 
       <section className='flex flex-col w-full text-justify space-y-3 md:w-4/12'>
         <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>Developers</h3>
-        <h3 className='text-sm text-justify font-semibold te border-b pb-5'>Realice esta página en mi servicio social del Tecnológico Nacional de México Campus Iguala</h3>
-        <p className='font-normal text-xs text-justify text-slate-700'>El objetivo de esta página es mostrar a los alumnos que se han encargado de realizar actualizaciones a la página web del departamento de Sistemas y computación</p>
-        <p className='font-normal text-xs text-justify text-slate-700 pb-2'>En esta página se utilizó el framework gob.mx para incorporar el footer y navbar de la pagina gob.mx oficial</p>
+        <h3 className='text-sm text-justify font-semibold te border-b pb-5'>Realicé esta página como parte de mi servicio social en el Tecnológico Nacional de México, Campus Iguala.</h3>
+        <p className='font-normal text-xs text-justify text-slate-700'>El objetivo de esta página es presentar a los alumnos que se han dedicado a llevar a cabo actualizaciones en el sitio web del Departamento de Sistemas y Computación.</p>
+        <p className='font-normal text-xs text-justify text-slate-700 pb-2'>En la elaboración de esta página, se utilizó el framework gob.mx para incorporar el footer y el navbar de la página oficial del gobierno gob.mx.</p>
         <div>
         <p className='text-xs font-semibold'>Enlace del framework Gob.mx :</p>
             <a className='text-blue-500' href='https://www.gob.mx/guias/grafica/' target='_blank' rel='nooper noreferrer'>https://www.gob.mx/guias/grafica/</a>

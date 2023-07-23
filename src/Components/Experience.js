@@ -5,8 +5,8 @@ export default function Experience() {
   return (
     <div>
     <div className='flex flex-col px-8 pb-7 md:px-12 md:py-5 lg:px-24'>
-      <h2 className='font-bold text-3xl md:text-5xl text-blue-600 pb-4'>Mi Experiencia</h2>
-      <p className='font-normal text-sm text-justify text-slate-600'>Durante mi carrera en el mundo del desarrollo de software, he tenido la oportunidad de trabajar en proyectos colaborativos en equipo, estas experiencias me han permitido adquirir un conjunto de habilidades y conocimientos, algunos de mis proyectos son:</p>
+      <h2 className='font-bold text-3xl md:text-5xl text-blue-700 pb-4'>Mi Experiencia</h2>
+      <p className='font-normal text-sm text-justify text-slate-600'>Durante mi carrera en el mundo del desarrollo de software, he tenido la oportunidad de participar en proyectos colaborativos en equipo. Estas experiencias me han permitido adquirir un valioso conjunto de habilidades y conocimientos. Algunos de los proyectos en los que he trabajado son los siguientes:</p>
     </div>
     <section className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto md:gap-7 px-8 md:px-12 md:py-7 lg:px-24'>
       <CardProyect image="/JesusEcheverria.github.io/Images/Page_Developers_iti.jpg" title="DEVELOPERS (Página en ITI)" made="HTML, Tailwind CSS & Framework-gob mx" url="/Developers"/>
