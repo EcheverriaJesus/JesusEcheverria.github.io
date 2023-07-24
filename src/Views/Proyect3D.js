@@ -1,6 +1,7 @@
 import React from 'react'
 import InformationProyect from '../Views/InformationProyect'
 import { Carousel } from 'flowbite-react';
+import { Title3D } from '../Variables/Variables'
 
 export default function Proyect3D() {
   return (
@@ -20,7 +21,7 @@ export default function Proyect3D() {
       </section>
 
       <section className='flex flex-col w-full text-justify space-y-3 md:w-4/12'>
-        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>Objectos 3D</h3>
+        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>{ Title3D }</h3>
         <h3 className='text-base text-justify font-semibold te border-b pb-5'>Aprendí a utilizar Blender por pasatiempo, ya que me apasiona la tecnología 3D y las infinitas posibilidades creativas que ofrece.</h3>
         <p className='text-base leading-6 text-gray-600'>Gracias a esto, he adquirido experiencia en la creación de modelos de objetos sencillos. Además, cuento con conocimientos básicos para renderizar texturas en mis objetos, así como para manejar la iluminación y el movimiento de cámaras que ofrece Blender.</p>
       </section>

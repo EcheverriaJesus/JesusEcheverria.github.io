@@ -1,7 +1,9 @@
 import React from 'react'
 import CardProyect from './CardProyect'
+import { Title3D } from '../Variables/Variables'
 
 export default function Experience() {
+
   return (
     <div>
       <div className='flex flex-col px-8 pb-7 md:px-12 md:py-5 lg:px-24'>
@@ -17,7 +19,7 @@ export default function Experience() {
 
         <CardProyect image="/JesusEcheverria.github.io/Images/PosSystem/PosSystem6.png" title="Punto de Venta (CRUD)" made="Framework Laravel, Tailwind CSS & Livewire" url="/POSCRUD" />
 
-        <CardProyect image="/JesusEcheverria.github.io/Images/3D/Bote_3D.png" title="Objectos 3D (Autoaprendizaje)" made="Blender" url="/Proyect3D" />
+        <CardProyect image="/JesusEcheverria.github.io/Images/3D/Bote_3D.png" title={`${Title3D} (Autoaprendizaje)`} made="Blender" url="/Proyect3D" />
       </section>
 
     </div>

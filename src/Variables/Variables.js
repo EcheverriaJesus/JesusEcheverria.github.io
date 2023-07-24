@@ -1,0 +1,1 @@
+export const Title3D = 'Objectos 3D'
