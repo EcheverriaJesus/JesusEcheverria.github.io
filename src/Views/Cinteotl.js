@@ -2,6 +2,7 @@ import React from 'react'
 import InformationProyect from '../Views/InformationProyect'
 import { Carousel } from 'flowbite-react';
 import ButtonIcon from '../Components/ButtonIcon';
+import { TitleCinteolt } from '../Variables/Variables'
 
 export default function Cinteotl() {
   return (
@@ -21,7 +22,7 @@ export default function Cinteotl() {
       </section>
 
       <section className='flex flex-col w-full text-justify space-y-3 md:w-4/12'>
-        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>CINTEOLT</h3>
+        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'> {TitleCinteolt} </h3>
         <h3 className='text-base text-justify font-semibold te border-b pb-5'>Este proyecto representó mi primera experiencia en el desarrollo web.</h3>
         <p className='text-base leading-6 text-gray-600'>Cinteotl se enfoca en la gestión integral de un restaurante. Durante este proyecto, se desarrolló la interfaz final para los clientes, que incluye un menú interactivo en línea, y también se implementó la sección del backoffice destinada a los administradores del restaurante.</p>
        <div className='flex justify-center pt-5 flotar'>

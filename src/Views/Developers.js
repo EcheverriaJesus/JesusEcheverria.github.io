@@ -2,6 +2,7 @@ import React from 'react'
 import InformationProyect from '../Views/InformationProyect'
 import { Carousel } from 'flowbite-react';
 import ButtonIcon from '../Components/ButtonIcon';
+import { TitleDevelopers } from '../Variables/Variables'
 
 export default function Developers() {
   return (
@@ -21,7 +22,7 @@ export default function Developers() {
       </section>
 
       <section className='flex flex-col w-full text-justify space-y-3 md:w-4/12'>
-        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>Developers</h3>
+        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>{TitleDevelopers}</h3>
         <h3 className='text-base text-justify font-semibold te border-b pb-5'>Realicé esta página como parte de mi servicio social en el Tecnológico Nacional de México, Campus Iguala.</h3>
         <p className='text-base leading-5 text-gray-600'>El objetivo de esta página es presentar a los alumnos que se han dedicado a llevar a cabo actualizaciones en el sitio web del Departamento de Sistemas y Computación.</p>
         <p className='text-base leading-5 text-gray-600'>En la elaboración de esta página, se utilizó el framework gob.mx para incorporar el footer y el navbar de la página oficial del gobierno gob.mx.</p>

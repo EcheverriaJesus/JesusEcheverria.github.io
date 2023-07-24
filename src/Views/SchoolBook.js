@@ -2,6 +2,7 @@ import React from 'react'
 import InformationProyect from '../Views/InformationProyect'
 import { Carousel } from 'flowbite-react';
 import ButtonIcon from '../Components/ButtonIcon';
+import { TitleSchoolBook } from '../Variables/Variables'
 
 export default function SchoolBook() {
   return (
@@ -22,7 +23,7 @@ export default function SchoolBook() {
       </section>
 
       <section className='flex flex-col w-full text-justify space-y-3 md:w-4/12'>
-        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>SchoolBook</h3>
+        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'> {TitleSchoolBook} </h3>
         <h3 className='text-base text-justify font-semibold te border-b pb-5'>SchoolBook es un proyecto de Control Escolar Web dirigido al nivel de secundaria.</h3>
         <p className='text-sm leading-5 text-gray-600'>El objetivo de este proyecto es administrar el registro de los alumnos, maestros, materias y calificaciones, así como permitir a los alumnos consultar sus calificaciones del ciclo escolar. Además, proporciona a los profesores una plataforma para evaluar a sus alumnos de manera efectiva. </p>
         <p className='text-sm leading-5 text-gray-600'>SchoolBook cuenta con implementación de autenticación de usuarios y seguridad de sesiones para garantizar la privacidad y protección de los datos. Asimismo, se ha desarrollado una amplia variedad de procesos, como CRUDS (Crear, Leer, Actualizar, Eliminar), validaciones, rutas, permisos y componentes, con el fin de cumplir cabalmente con los objetivos establecidos.</p>

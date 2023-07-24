@@ -1,1 +1,5 @@
-export const Title3D = 'Objectos 3D'
+export const Title3D = 'OBJECTOS 3D'
+export const TitleDevelopers = 'DEVELOPERS'
+export const TitleCinteolt = 'CINTEOLT'
+export const TitleSchoolBook = 'SCHOOL BOOK'
+export const TitleCrud = 'POS SYSTEM'

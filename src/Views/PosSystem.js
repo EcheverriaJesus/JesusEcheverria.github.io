@@ -2,6 +2,7 @@ import React from 'react'
 import InformationProyect from '../Views/InformationProyect'
 import { Carousel } from 'flowbite-react';
 import ButtonIcon from '../Components/ButtonIcon';
+import { TitleCrud } from '../Variables/Variables'
 
 export default function PosSystem() {
   return (
@@ -22,7 +23,7 @@ export default function PosSystem() {
       </section>
 
       <section className='flex flex-col w-full text-justify space-y-3 md:w-4/12'>
-        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'>Pos System CRUD</h3>
+        <h3 className='hidden md:pb-3 lg:flex justify-center font-bold text-3xl'> {TitleCrud} </h3>
         <h3 className='text-base text-justify font-semibold te border-b pb-5'>He llevado a cabo este pequeño proyecto con el propósito de fortalecer mi conocimiento en el framework Laravel.</h3>
         <p className='text-base leading-6 text-gray-600'>El objetivo de este proyecto consiste en encontrar formas de optimizar el código y aprovechar todos los componentes que ofrece la librería Jetstream. Gracias a esto, logré implementar un CRUD de manera sencilla y organizada, haciendo un uso eficiente de sus funcionalidades.</p>
        <div className='flex justify-center pt-5 flotar'>
