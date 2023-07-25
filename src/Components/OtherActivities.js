@@ -19,15 +19,15 @@ export default function OtherActivities() {
       </section>
 
       <section className='flex flex-col-reverse justify-between items-center w-full md:flex-row'>
-      <div className='w-full h-full pt-5 md:w-6/12 md:pt-0' data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="900">
+        <div className='w-full h-full pt-5 md:w-6/12 md:pt-0' data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="900">
           <img className='w-96' src={bussiness} alt="" />
         </div>
-        <div className='w-full text-justify space-y-3 md:w-7/12' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
+        <div className='w-full text-justify space-y-3 md:w-7/12 md:pl-10' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
           <h3 className='text-center font-bold text-3xl md:text-5xl text-blue-700 md:text-justify'>Instalación de Camaras</h3>
           <h3 className='font-bold text-base md:text-lg'>Durante mi servicio social, Realice una instalacion CCTV junto con otros compañeros.</h3>
           <p className='space-y-4 text-base leading-7 text-gray-600'>He realizado la instalacion de varias camaras en diferentes laboratorios en el tecnologico, gracias a esta experincia hoy tengo el conocimiento de lo que se requiere para llevar a cabo este proceso en algun otro lugar.</p>
         </div>
-        
+
       </section>
     </div>
   )

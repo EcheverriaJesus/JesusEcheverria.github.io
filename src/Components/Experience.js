@@ -10,7 +10,7 @@ export default function Experience() {
         <h2 className='font-bold text-3xl md:text-5xl text-blue-700 pb-4'>Mi Experiencia</h2>
         <p className='space-y-4 text-base leading-7 text-gray-600'>Durante mi carrera en el mundo del desarrollo de software, he tenido la oportunidad de participar en proyectos colaborativos en equipo. Estas experiencias me han permitido adquirir un valioso conjunto de habilidades y conocimientos. Algunos de los proyectos en los que he trabajado son los siguientes:</p>
       </div>
-      <section className='flex flex-col sm:grid grid-cols-2 md:grid-cols-3 w-full h-auto md:gap-7 px-8 md:px-12 md:py-7 lg:px-24'>
+      <section className='flex flex-col sm:grid grid-cols-2 md:gap-7 px-8 md:px-12 md:py-7 lg:px-24 lg:grid-cols-3 w-full h-auto'>
 
         <CardProyect image="/JesusEcheverria.github.io/Images/Developers/Developers.jpg" title={` ${TitleDevelopers} (Página en ITI)`} made="HTML, Tailwind CSS & Framework-gob mx" url="/Developers" />
 
