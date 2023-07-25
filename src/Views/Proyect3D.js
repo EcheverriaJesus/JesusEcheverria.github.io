@@ -10,7 +10,7 @@ export default function Proyect3D() {
 
     <h3 className='text-center font-bold text-3xl pb-4 pt-7 md:text-5xl md:text-justify md:pb-3 lg:hidden'>Objectos 3D</h3>
     <div className='flex flex-col md:flex-row-reverse md:items-center md:gap-14 lg:h-full'>
-      <section className='flex h-72 w-full md:h-80 lg:h-5/6 bg-[#1f2937] rounded-lg'>
+      <section className='flex h-72 w-full md:h-80 lg:h-5/6 FondoF rounded-lg'>
         <Carousel>
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/3D/Barril_3D.jpg" />
           <img className='rounded-xl' alt="..." src="/JesusEcheverria.github.io/Images/3D/Bote_3D.jpg" />

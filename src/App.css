@@ -56,7 +56,21 @@
 }
 
 .FondoF {
-  background: linear-gradient(180deg, #1f2937 0%, rgb(14, 13, 13) 100%);
+  background: linear-gradient(-45deg, #190938, #0b2740, #1f2937, #0e0b15);
+  background-size: 800% 400%;
+  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+  /* background: linear-gradient(180deg, #1f2937 0%, rgb(14, 13, 13) 100%); */
+}
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
 }
 
 /* SVG */
