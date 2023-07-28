@@ -10,7 +10,7 @@ export default function About_Me() {
          <div className='space-y-4 text-base leading-5 text-gray-600'>
            <p>Actualmente resido en la ciudad de Teloloapan, Gro, México, tengo 22 años y estoy cursando el último semestre de la carrera de Ingeniería en Sistemas Computacionales.</p>
            <p>Desde una edad temprana, me ha fascinado el mundo de la tecnología y la informática. La manera en que la tecnología puede mejorar nuestras vidas y transformar la sociedad siempre me ha intrigado.</p>
-           <p>Disfruto especialmente del desarrollo de software y constantemente busco formas de simplificar tareas y procesos. Ademas, me gusta compartir mis conocimientos a personas que al igual que yo les guste el desarrollo de software.</p>
+           <p>Soy una persona autodidacta, y disfruto especialmente del desarrollo de software y constantemente busco formas de simplificar tareas y procesos. Ademas, me gusta compartir mis conocimientos a personas que al igual que yo les guste el desarrollo de software.</p>
          </div>
         </div>
         <section className='flex justify-center items-center py-10 w-auto md:p-0'>
