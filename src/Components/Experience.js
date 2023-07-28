@@ -16,13 +16,15 @@ export default function Experience() {
 
         <CardProyect image="/JesusEcheverria.github.io/Images/Cinteolt/Cinteolt.jpg" title={` ${TitleCinteolt} (Sitio Web Restaurante)`} made="Framework Laravel & SASS" url="/Cinteotl" />
 
-        <CardProyect image="/JesusEcheverria.github.io/Images/SchoolBook/SCHOOLBOOK.png" title={` ${TitleSchoolBook} (Sistema de Control Escolar)` }made="Framework Laravel, Tailwind CSS & Livewire" url="/SCHOOLBOOK" />
+        <CardProyect image="/JesusEcheverria.github.io/Images/SchoolBook/SCHOOLBOOK.png" title={` ${TitleSchoolBook} (Sistema de Control Escolar)`} made="Framework Laravel, Tailwind CSS & Livewire" url="/SCHOOLBOOK" />
 
         <CardProyect image="/JesusEcheverria.github.io/Images/PosSystem/PosSystem6.png" title={`${TitleCrud} (CRUD)`} made="Framework Laravel, Tailwind CSS & Livewire" url="/POSCRUD" />
 
         <CardProyect image="/JesusEcheverria.github.io/Images/3D/Bote_3D.png" title={`${Title3D} (Autoaprendizaje)`} made="Blender" url="/Proyect3D" />
       </section>
-
+     {/*  <section className='flex flex-col px-8 pb-7 md:px-12 md:pt-10 lg:px-24'>
+        <p className='space-y-4 text-base leading-7 text-gray-600'>Ademas de los proyectos anteriores,tambien practico otras tecnologias:</p>
+      </section> */}
     </div>
   )
 }

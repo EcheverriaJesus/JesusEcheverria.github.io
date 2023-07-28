@@ -17,9 +17,9 @@ function App() {
         <NavBar />
         <section id='home' className="flex w-full h-auto px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex pt-20 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4 md:pt-40 aparecer">
-            <h2 className="text-center text-2xl lg:text-3xl text-white font-bold letter Edu tracking-widest">HOLA, SOY JESÚS NOÉ ECHEVERRIA MEDINA</h2>
+            <h2 className="text-center text-2xl lg:text-2xl text-white font-bold LilitaOne tracking-widest">HOLA, SOY JESÚS NOÉ ECHEVERRIA MEDINA</h2>
             <div>
-              <h2 className="text-center text-xl lg:text-2xl text-yellow-300 font-semibold Edu tracking-widest">INGENIERO EN SISTEMAS COMPUTACIONALES!</h2>
+              <h2 className="text-center text-xl lg:text-xl text-yellow-300 font-semibold LilitaOne tracking-widest">INGENIERO EN SISTEMAS COMPUTACIONALES!</h2>
             </div>
 
             <article className="flex gap-5 pt-5">
@@ -57,20 +57,20 @@ function App() {
           <Card_CV />
         </section>
 
-        <div id="about-me" className='px-8 md:px-12 lg:px-24 pt-8' data-aos="fade-right">
+        <div id="about-me" className='px-8 md:px-12 lg:px-24 pt-8 lg:pt-24' data-aos="fade-right">
           <About_Me />
         </div>
 
-        <div id="experience" className='pt-8'>
+        <div id="experience" className='pt-8 lg:pt-24'>
           <Experience />
         </div>
 
-        <div id="Activities" className='pt-8'>
+        <div id="Activities" className='pt-8 lg:pt-24'>
           <OtherActivities />
         </div>
       </main>
 
-      <div id="footer" className='pt-8' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
+      <div id="footer" className='pt-8 lg:pt-24' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <Footer />
       </div>
 
