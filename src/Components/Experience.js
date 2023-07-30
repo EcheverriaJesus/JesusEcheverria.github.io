@@ -45,6 +45,12 @@ export default function Experience() {
               <a href='/JesusEcheverria.github.io/Images/R_Laravel.jpg' target="_blank" rel="noopener noreferrer">
                 <p className='text-sky-500 hover:text-sky-700 pt-2 '>Constancia Curso Laravel &rarr;</p>
               </a>
+              <a href='/JesusEcheverria.github.io/Documents/Html_CSS.pdf' target="_blank" rel="noopener noreferrer">
+                <p className='text-sky-500 hover:text-sky-700 pt-2 '>Certificado HTML & CSS &rarr;</p>
+              </a>
+              <a href='/JesusEcheverria.github.io/Documents/programation.pdf' target="_blank" rel="noopener noreferrer">
+                <p className='text-sky-500 hover:text-sky-700 pt-2 '>Certificado Introducción a la Programación &rarr;</p>
+              </a>
               {/* <a href='' target="_blank" rel="noopener noreferrer">
                 <p className='text-sky-500 hover:text-sky-700 pt-2 '>Certificado Curso Electron &rarr;</p>
               </a> */}
