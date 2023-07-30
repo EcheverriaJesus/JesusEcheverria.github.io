@@ -39,16 +39,16 @@ export default function Experience() {
             </div>
             <div>
               <h3 className='font-bold text-blue-700 text-base md:text-lg'>Certificados o Logros</h3>
-              <a href='/JesusEcheverria.github.io/Images/C_Ingles.jpg' target="_blank" rel="noopener noreferrer">
+              <a href='/JesusEcheverria.github.io/Images/ConstaLogros/C_Ingles.jpg' target="_blank" rel="noopener noreferrer">
                 <p className='text-sky-500 hover:text-sky-700 pt-2 '>Constancia Inglés &rarr;</p>
               </a>
-              <a href='/JesusEcheverria.github.io/Images/R_Laravel.jpg' target="_blank" rel="noopener noreferrer">
+              <a href='/JesusEcheverria.github.io/Images/ConstaLogros/R_Laravel.jpg' target="_blank" rel="noopener noreferrer">
                 <p className='text-sky-500 hover:text-sky-700 pt-2 '>Constancia Curso Laravel &rarr;</p>
               </a>
-              <a href='/JesusEcheverria.github.io/Documents/Html_CSS.pdf' target="_blank" rel="noopener noreferrer">
+              <a href='/JesusEcheverria.github.io/Images/ConstaLogros/CertifiHTMLCSS.png' target="_blank" rel="noopener noreferrer">
                 <p className='text-sky-500 hover:text-sky-700 pt-2 '>Certificado HTML & CSS &rarr;</p>
               </a>
-              <a href='/JesusEcheverria.github.io/Documents/programation.pdf' target="_blank" rel="noopener noreferrer">
+              <a href='/JesusEcheverria.github.io/Images/ConstaLogros/CertifiProgramation.png' target="_blank" rel="noopener noreferrer">
                 <p className='text-sky-500 hover:text-sky-700 pt-2 '>Certificado Introducción a la Programación &rarr;</p>
               </a>
               {/* <a href='' target="_blank" rel="noopener noreferrer">
