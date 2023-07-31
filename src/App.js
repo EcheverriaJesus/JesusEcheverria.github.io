@@ -52,7 +52,7 @@ function App() {
         </section>
       </header>
 
-      <main className=''>
+      <main className='dark:bg-gray-900'>
         <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
         </section>

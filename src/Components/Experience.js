@@ -64,7 +64,7 @@ export default function Experience() {
             <div>
               <h3 className='font-bold text-blue-700 text-base md:text-lg'>herramientas</h3>
               <div className='grid grid-cols-5 gap-6 pt-5 md:grid-cols-6'>
-                <img className='hover:scale-150 ease-in duration-300 h-9' src="/JesusEcheverria.github.io/Images/LogoHerramientas/Electron.png" alt="" />
+                <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/LogoHerramientas/Electronjs.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/Logos/Laravel.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/LogoHerramientas/React.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/LogoHerramientas/Asp.png" alt="" />

@@ -12,12 +12,10 @@ export default function CardProyect(props) {
                 <p className='font-semibold text-gray-700 pt-2'>Hecho con:</p>
                 <p className='font-normal text-slate-500 text-xs pb-3'>{props.made}</p>
                 <div className='flex justify-center'>
-                    <Link to={ props.url }>
+                    <Link to={props.url}>
                         <div className='flex gap-2 py-2 px-5 rounded-2xl cursor-pointer bg-[#e3fff9] hover:scale-[1.1] ease-in duration-300 hover:text-black hover:font-semibold'>
-                            <svg className='w-7' viewBox="0 0 24 24">
-                                <path
-                                    d="m12.002 2.005c5.518 0 9.998 4.48 9.998 9.997 0 5.518-4.48 9.998-9.998 9.998-5.517 0-9.997-4.48-9.997-9.998 0-5.517 4.48-9.997 9.997-9.997zm0 1.5c-4.69 0-8.497 3.807-8.497 8.497s3.807 8.498 8.497 8.498 8.498-3.808 8.498-8.498-3.808-8.497-8.498-8.497zm0 6.5c-.414 0-.75.336-.75.75v5.5c0 .414.336.75.75.75s.75-.336.75-.75v-5.5c0-.414-.336-.75-.75-.75zm-.002-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z"
-                                    fill="#000000" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
                             </svg>
                             <button className='text-gray-700'> Ver mas</button>
                         </div>
