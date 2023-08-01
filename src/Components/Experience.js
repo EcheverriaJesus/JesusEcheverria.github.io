@@ -74,7 +74,7 @@ export default function Experience() {
                 <img className='hover:scale-150 ease-in duration-300 h-10' src="/JesusEcheverria.github.io/Images/LogoHerramientas/Tailwind.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/LogoHerramientas/Bootstrap.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/LogoHerramientas/Android.png" alt="" />
-                <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/Logos/C.png" alt="" />
+                <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/LogoHerramientas/C.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-10' src="/JesusEcheverria.github.io/Images/Logos/Java.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/Logos/Git.png" alt="" />
                 <img className='hover:scale-150 ease-in duration-300 h-8' src="/JesusEcheverria.github.io/Images/Logos/Blender.png" alt="" />

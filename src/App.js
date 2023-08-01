@@ -37,7 +37,7 @@ function App() {
         <section className='flex justify-around w-full py-6 px-8 md:pt-5 lg:px-16 lg:pt-16 aparecer'>
           {[
             "/JesusEcheverria.github.io/Images/Logos/Blender.png",
-            "/JesusEcheverria.github.io/Images/Logos/C.png",
+            "/JesusEcheverria.github.io/Images/LogoHerramientas/C.png",
             "/JesusEcheverria.github.io/Images/Logos/Git.png",
             "/JesusEcheverria.github.io/Images/Logos/Laravel.png",
             "/JesusEcheverria.github.io/Images/Logos/Java.png"
@@ -65,12 +65,12 @@ function App() {
           <Experience />
         </div>
 
-        <div id="Activities" className='pt-8 lg:py-24'>
+        <div id="Activities" className='pb-20 pt-8 lg:py-24'>
           <OtherActivities />
         </div>
       </main>
 
-      <div id="footer" className='pt-8 lg:pt-0 dark:bg-gray-900' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
+      <div id="footer" className='' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <Footer />
       </div>
 
