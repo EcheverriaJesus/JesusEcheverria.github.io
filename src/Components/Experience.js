@@ -29,7 +29,7 @@ export default function Experience() {
 
         <CardProyect image="/JesusEcheverria.github.io/Images/3D/Bote_3D.png" title={`${Title3D} (Autoaprendizaje)`} made="Blender" url="/Proyect3D" /> */}
 
-        <BoxProyect title={ `${TitleSchoolBook} (Sistema de Contol Escolar)` } made="Framework Laravel, Livewire & Tailwind CSS" url="/SCHOOLBOOK"/>
+        <BoxProyect title={ `${TitleSchoolBook} (Sistema Escolar)` } made="Framework Laravel, Livewire & Tailwind CSS" url="/SCHOOLBOOK"/>
         <BoxProyect title={ `${TitleCinteolt} (Sitio Web Restaurante)` } made="Framework Laravel & Sass" url="/Cinteotl"/>
         <BoxProyect title={ `${TitleCrud} (CRUD)` } made="Framework Laravel, Livewire & Tailwind CSS" url="/POSCRUD"/>
         <BoxProyect title={ `${TitleDevelopers} (Página ITI)` } made="HTML, CSS & Framework-gob mx" url="/Developers"/>
@@ -99,9 +99,9 @@ export default function Experience() {
       </section>
 
 
-      <section className='flex flex-col items-center px-8 pb-7 md:px-12 md:pt-10 lg:px-24 lg:pt-20'>
+      <section className='flex flex-col items-center px-8 pb-7 md:px-12 md:pt-10 lg:px-24 pt-20'>
         <div className='text-justify md:text-center' data-aos="zoom-in-left" data-aos-delay="100" data-aos-duration="900">
-          <h3 className='font-bold text-blue-700 text-center text-base md:text-lg dark:text-yellow-300'>Autodidacta</h3>
+          <h3 className='font-bold text-blue-700 text-center text-base pb-3 md:text-lg dark:text-yellow-300'>Autodidacta</h3>
           <h2 className='font-bold text-3xl md:text-3xl text-blue-800 pb-4 dark:text-white'>Cada día me gusta aprender cosas nuevas</h2>
           <p className='space-y-4 text-base leading-7 text-gray-600 lg:px-44 dark:text-slate-200'>Soy una persona muy curiosa con las tecnologias, gracias a esto he tenido la experiencia en muchas plataformas, plataformas que usan Inteligencia Artificial, Diseño, Administración en el proceso del desarrollo de software, lenguajes de programación, etc. Además de mis proyectos anteriores tengo la experiencia de trabajar con muchas otras herramientas.</p>
         </div>

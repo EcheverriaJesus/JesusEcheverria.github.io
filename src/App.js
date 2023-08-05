@@ -57,19 +57,19 @@ function App() {
           <Card_CV />
         </section>
 
-        <div id="about-me" className='px-8 md:px-12 lg:px-24 pt-8 lg:py-24' data-aos="fade-right">
+        <div id="about-me" className='px-8  md:px-12 lg:px-24 py-24' data-aos="fade-right">
           <About_Me />
         </div>
 
-        <div id="experience" className='pt-8 lg:pt-16'>
+        <div id="experience" className='pt-16'>
           <Experience />
         </div>
 
-        <div id="Activities" className='pb-20 pt-8 lg:py-24'>
+        <div id="Activities" className='pb-20 py-24'>
           <OtherActivities />
         </div>
       </main>
-      
+
       <div id="footer" className='' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <Footer />
       </div>
