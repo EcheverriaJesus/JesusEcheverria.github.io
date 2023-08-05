@@ -52,7 +52,7 @@ function App() {
         </section>
       </header>
 
-      <main className='dark:bg-gray-900'>
+      <main className='dark:bg-gray-900 sm:px-5 md:px-4 lg:px-24 duration-1000'>
         <section className="hidden sm:flex py-5 justify-center degradado w-full lg:hidden">
           <Card_CV />
         </section>
@@ -61,7 +61,7 @@ function App() {
           <About_Me />
         </div>
 
-        <div id="experience" className='pt-8 lg:pt-0'>
+        <div id="experience" className='pt-8 lg:pt-16'>
           <Experience />
         </div>
 
@@ -69,11 +69,11 @@ function App() {
           <OtherActivities />
         </div>
       </main>
-
+      
       <div id="footer" className='' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <Footer />
       </div>
-
+      
     </div>
   );
 }

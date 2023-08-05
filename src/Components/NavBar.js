@@ -25,7 +25,6 @@ export default function NavBar() {
     }
   }, [theme]);
 
-
   return (
     <div>
       <Navbar className='fixed top-0 left-0 w-full z-50 text-black md:text-white md:bg-blue-900 lg:px-16' fluid rounded>

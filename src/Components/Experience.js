@@ -1,19 +1,25 @@
 import React from 'react'
-import CardProyect from './CardProyect'
+/* import CardProyect from './CardProyect' */
+import BoxProyect from './BoxProyect'
 import { Title3D, TitleCrud, TitleDevelopers, TitleCinteolt, TitleSchoolBook } from '../Variables/Variables'
 
 export default function Experience() {
 
   return (
     <div>
-      <section className='flex flex-col px-8 pb-7 md:px-12 md:py-5 lg:px-24'>
-        <h2 className='font-bold text-3xl md:text-5xl text-blue-700 pb-4 dark:text-white'>Mi Experiencia</h2>
+      {/* <section className='flex flex-col px-8 pb-7 md:px-12 md:py-5 lg:px-24'>
+        <h2 className='font-bold text-3xl md:text-3xl text-center text-blue-700 pb-4 dark:text-white'>Mi Experiencia</h2>
         <p className='space-y-4 text-base leading-7 text-gray-600 dark:text-slate-300'>Durante mi carrera en el mundo del desarrollo de software, he tenido la oportunidad de participar en proyectos colaborativos en equipo. Estas experiencias me han permitido adquirir un valioso conjunto de habilidades y conocimientos. Algunos de los proyectos en los que he trabajado son los siguientes:</p>
-      </section>
+      </section> */}
 
-      <section className='flex flex-col pb-16 sm:grid grid-cols-2 md:gap-7 px-8 md:px-12 md:py-7 lg:px-24 lg:grid-cols-3 w-full h-auto'>
+      <div className='flex flex-col justify-center text-center w-auto h-auto px-5 py-10 mb-8 md:mx-12 duration-700 lg:mx-24 md:px-12 bg-gray-800 md:rounded-xl dark:bg-slate-600'>
+        <h2 className='font-bold text-3xl md:text-3xl text-center text-white pb-4 dark:text-yellow-300'>Mi Experiencia</h2>
+        <p className='space-y-4 text-base leading-7 text-slate-200 dark:text-slate-100 text-justify md:text-center'>Durante mi carrera en el mundo del desarrollo de software, he tenido la oportunidad de participar en proyectos colaborativos en equipo. Estas experiencias me han permitido adquirir un valioso conjunto de habilidades y conocimientos. Algunos de los proyectos en los que he trabajado son los siguientes:</p>
+      </div>
 
-        <CardProyect image="/JesusEcheverria.github.io/Images/Developers/Developers.jpg" title={` ${TitleDevelopers} (Página en ITI)`} made="HTML, Tailwind CSS & Framework-gob mx" url="/Developers" />
+      <section className='flex flex-col pb-16 sm:grid grid-cols-2 gap-10 md:gap-7 px-8 md:px-12 md:py-7 lg:px-24 lg:grid-cols-3 w-full h-auto'>
+
+        {/* <CardProyect image="/JesusEcheverria.github.io/Images/Developers/Developers.jpg" title={` ${TitleDevelopers} (Página en ITI)`} made="HTML, Tailwind CSS & Framework-gob mx" url="/Developers" />
 
         <CardProyect image="/JesusEcheverria.github.io/Images/Cinteolt/Cinteolt.jpg" title={` ${TitleCinteolt} (Sitio Web Restaurante)`} made="Framework Laravel & SASS" url="/Cinteotl" />
 
@@ -21,7 +27,75 @@ export default function Experience() {
 
         <CardProyect image="/JesusEcheverria.github.io/Images/PosSystem/PosSystem6.png" title={`${TitleCrud} (CRUD)`} made="Framework Laravel, Tailwind CSS & Livewire" url="/POSCRUD" />
 
-        <CardProyect image="/JesusEcheverria.github.io/Images/3D/Bote_3D.png" title={`${Title3D} (Autoaprendizaje)`} made="Blender" url="/Proyect3D" />
+        <CardProyect image="/JesusEcheverria.github.io/Images/3D/Bote_3D.png" title={`${Title3D} (Autoaprendizaje)`} made="Blender" url="/Proyect3D" /> */}
+
+        <BoxProyect title={ `${TitleSchoolBook} (Sistema de Contol Escolar)` } made="Framework Laravel, Livewire & Tailwind CSS" url="/SCHOOLBOOK"/>
+        <BoxProyect title={ `${TitleCinteolt} (Sitio Web Restaurante)` } made="Framework Laravel & Sass" url="/Cinteotl"/>
+        <BoxProyect title={ `${TitleCrud} (CRUD)` } made="Framework Laravel, Livewire & Tailwind CSS" url="/POSCRUD"/>
+        <BoxProyect title={ `${TitleDevelopers} (Página ITI)` } made="HTML, CSS & Framework-gob mx" url="/Developers"/>
+        <BoxProyect title={ `${Title3D} (Autoaprendizaje)` } made="Blender" url="/Proyect3D"/>
+{/* 
+        <div className='w-auto h-auto bg-gray-700 rounded-xl hover:bg-gray-900 hover:scale-110 duration-700 p-5 dark:bg-slate-600'>
+        <div className="bg-blue-800 w-10 h-10 p-2 rounded-md">
+          <svg width="24" height="24"><path d="M18.799 7.038c-.496-.535-.799-1.252-.799-2.038 0-1.656 1.344-3 3-3s3 1.344 3 3-1.344 3-3 3c-.146 0-.29-.01-.431-.031l-3.333 6.032c.475.53.764 1.231.764 1.999 0 1.656-1.344 3-3 3s-3-1.344-3-3c0-.583.167-1.127.455-1.587l-2.565-3.547c-.281.087-.58.134-.89.134l-.368-.022-3.355 6.069c.451.525.723 1.208.723 1.953 0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3c.186 0 .367.017.543.049l3.298-5.967c-.52-.539-.841-1.273-.841-2.082 0-1.656 1.344-3 3-3s3 1.344 3 3c0 .617-.187 1.191-.507 1.669l2.527 3.495c.307-.106.637-.164.98-.164.164 0 .325.013.482.039l3.317-6.001zm-3.799 7.962c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-6-8c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill="#FFFFFF" /></svg>
+        </div>
+        <h4 className='text-white font-semibold py-2'>School Book (Sistema de Control Escolar)</h4>
+        <p className='space-y-4 text-base leading-7 text-slate-100 font-semibold dark:text-slate-200'>Realizado con: </p>
+        <p className='space-y-4 text-sm leading-7 text-slate-300 dark:text-slate-200'>Framework Laravel, Tailwind CSS & Livewire </p>
+        <div className='flex justify-center pt-5 pb-2'>
+          <button className='w-36 h-10 bg-indigo-200 font-semibold rounded-md hover:scale-90 duration-500'>
+            Ver más</button>
+        </div>
+      </div>
+      <div className='w-auto h-auto bg-gray-700 rounded-xl hover:bg-gray-900 hover:scale-110 duration-700 p-5 dark:bg-slate-600'>
+        <div className="bg-blue-800 w-10 h-10 p-2 rounded-md">
+          <svg width="24" height="24"><path d="M18.799 7.038c-.496-.535-.799-1.252-.799-2.038 0-1.656 1.344-3 3-3s3 1.344 3 3-1.344 3-3 3c-.146 0-.29-.01-.431-.031l-3.333 6.032c.475.53.764 1.231.764 1.999 0 1.656-1.344 3-3 3s-3-1.344-3-3c0-.583.167-1.127.455-1.587l-2.565-3.547c-.281.087-.58.134-.89.134l-.368-.022-3.355 6.069c.451.525.723 1.208.723 1.953 0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3c.186 0 .367.017.543.049l3.298-5.967c-.52-.539-.841-1.273-.841-2.082 0-1.656 1.344-3 3-3s3 1.344 3 3c0 .617-.187 1.191-.507 1.669l2.527 3.495c.307-.106.637-.164.98-.164.164 0 .325.013.482.039l3.317-6.001zm-3.799 7.962c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-6-8c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill="#FFFFFF" /></svg>
+        </div>
+        <h4 className='text-white font-semibold py-2'>Developers (Página en ITI)</h4>
+        <p className='space-y-4 text-base leading-7 text-slate-100 font-semibold dark:text-slate-200'>Realizado con: </p>
+        <p className='space-y-4 text-sm leading-7 text-slate-300 dark:text-slate-200'>Framework Laravel, Tailwind CSS & Livewire </p>
+        <div className='flex justify-center pt-5 pb-2'>
+          <button className='w-36 h-10 bg-indigo-200 font-semibold rounded-md hover:scale-90 duration-500'>
+            Ver más</button>
+        </div>
+      </div>
+      <div className='w-auto h-auto bg-gray-700 rounded-xl hover:bg-gray-900 hover:scale-110 duration-700 p-5 dark:bg-slate-600'>
+        <div className="bg-blue-800 w-10 h-10 p-2 rounded-md">
+          <svg width="24" height="24"><path d="M18.799 7.038c-.496-.535-.799-1.252-.799-2.038 0-1.656 1.344-3 3-3s3 1.344 3 3-1.344 3-3 3c-.146 0-.29-.01-.431-.031l-3.333 6.032c.475.53.764 1.231.764 1.999 0 1.656-1.344 3-3 3s-3-1.344-3-3c0-.583.167-1.127.455-1.587l-2.565-3.547c-.281.087-.58.134-.89.134l-.368-.022-3.355 6.069c.451.525.723 1.208.723 1.953 0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3c.186 0 .367.017.543.049l3.298-5.967c-.52-.539-.841-1.273-.841-2.082 0-1.656 1.344-3 3-3s3 1.344 3 3c0 .617-.187 1.191-.507 1.669l2.527 3.495c.307-.106.637-.164.98-.164.164 0 .325.013.482.039l3.317-6.001zm-3.799 7.962c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-6-8c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill="#FFFFFF" /></svg>
+        </div>
+        <h4 className='text-white font-semibold py-2'>School Book (Sistema de Control Escolar)</h4>
+        <p className='space-y-4 text-base leading-7 text-slate-100 font-semibold dark:text-slate-200'>Realizado con: </p>
+        <p className='space-y-4 text-sm leading-7 text-slate-300 dark:text-slate-200'>Framework Laravel, Tailwind CSS & Livewire </p>
+        <div className='flex justify-center pt-5 pb-2'>
+          <button className='w-36 h-10 bg-indigo-200 font-semibold rounded-md hover:scale-90 duration-500'>
+            Ver más</button>
+        </div>
+      </div>
+      <div className='w-auto h-auto bg-gray-700 rounded-xl hover:bg-gray-900 hover:scale-110 duration-700 p-5 dark:bg-slate-600'>
+        <div className="bg-blue-800 w-10 h-10 p-2 rounded-md">
+          <svg width="24" height="24"><path d="M18.799 7.038c-.496-.535-.799-1.252-.799-2.038 0-1.656 1.344-3 3-3s3 1.344 3 3-1.344 3-3 3c-.146 0-.29-.01-.431-.031l-3.333 6.032c.475.53.764 1.231.764 1.999 0 1.656-1.344 3-3 3s-3-1.344-3-3c0-.583.167-1.127.455-1.587l-2.565-3.547c-.281.087-.58.134-.89.134l-.368-.022-3.355 6.069c.451.525.723 1.208.723 1.953 0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3c.186 0 .367.017.543.049l3.298-5.967c-.52-.539-.841-1.273-.841-2.082 0-1.656 1.344-3 3-3s3 1.344 3 3c0 .617-.187 1.191-.507 1.669l2.527 3.495c.307-.106.637-.164.98-.164.164 0 .325.013.482.039l3.317-6.001zm-3.799 7.962c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-6-8c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill="#FFFFFF" /></svg>
+        </div>
+        <h4 className='text-white font-semibold py-2'>School Book (Sistema de Control Escolar)</h4>
+        <p className='space-y-4 text-base leading-7 text-slate-100 font-semibold dark:text-slate-200'>Realizado con: </p>
+        <p className='space-y-4 text-sm leading-7 text-slate-300 dark:text-slate-200'>Framework Laravel, Tailwind CSS & Livewire </p>
+        <div className='flex justify-center pt-5 pb-2'>
+          <button className='w-36 h-10 bg-indigo-200 font-semibold rounded-md hover:scale-90 duration-500'>
+            Ver más</button>
+        </div>
+      </div>
+      <div className='w-auto h-auto bg-gray-700 rounded-xl hover:bg-gray-900 hover:scale-110 duration-700 p-5 dark:bg-slate-600'>
+        <div className="bg-blue-800 w-10 h-10 p-2 rounded-md">
+          <svg width="24" height="24"><path d="M18.799 7.038c-.496-.535-.799-1.252-.799-2.038 0-1.656 1.344-3 3-3s3 1.344 3 3-1.344 3-3 3c-.146 0-.29-.01-.431-.031l-3.333 6.032c.475.53.764 1.231.764 1.999 0 1.656-1.344 3-3 3s-3-1.344-3-3c0-.583.167-1.127.455-1.587l-2.565-3.547c-.281.087-.58.134-.89.134l-.368-.022-3.355 6.069c.451.525.723 1.208.723 1.953 0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3c.186 0 .367.017.543.049l3.298-5.967c-.52-.539-.841-1.273-.841-2.082 0-1.656 1.344-3 3-3s3 1.344 3 3c0 .617-.187 1.191-.507 1.669l2.527 3.495c.307-.106.637-.164.98-.164.164 0 .325.013.482.039l3.317-6.001zm-3.799 7.962c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-6-8c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill="#FFFFFF" /></svg>
+        </div>
+        <h4 className='text-white font-semibold py-2'>School Book (Sistema de Control Escolar)</h4>
+        <p className='space-y-4 text-base leading-7 text-slate-100 font-semibold dark:text-slate-200'>Realizado con: </p>
+        <p className='space-y-4 text-sm leading-7 text-slate-300 dark:text-slate-200'>Framework Laravel, Tailwind CSS & Livewire </p>
+        <div className='flex justify-center pt-5 pb-2'>
+          <button className='w-36 h-10 bg-indigo-200 font-semibold rounded-md hover:scale-90 duration-500'>
+            Ver más</button>
+        </div>
+      </div> */}
+
       </section>
 
 
@@ -88,6 +162,22 @@ export default function Experience() {
           </div>
         </div>
       </section>
+
+
+     {/*  <div className='w-auto h-auto bg-gray-700 rounded-xl hover:bg-gray-900 hover:scale-110 duration-700 p-5 dark:bg-slate-600'>
+        <div className="bg-blue-800 w-10 h-10 p-2 rounded-md">
+          <svg width="24" height="24"><path d="M18.799 7.038c-.496-.535-.799-1.252-.799-2.038 0-1.656 1.344-3 3-3s3 1.344 3 3-1.344 3-3 3c-.146 0-.29-.01-.431-.031l-3.333 6.032c.475.53.764 1.231.764 1.999 0 1.656-1.344 3-3 3s-3-1.344-3-3c0-.583.167-1.127.455-1.587l-2.565-3.547c-.281.087-.58.134-.89.134l-.368-.022-3.355 6.069c.451.525.723 1.208.723 1.953 0 1.656-1.344 3-3 3s-3-1.344-3-3 1.344-3 3-3c.186 0 .367.017.543.049l3.298-5.967c-.52-.539-.841-1.273-.841-2.082 0-1.656 1.344-3 3-3s3 1.344 3 3c0 .617-.187 1.191-.507 1.669l2.527 3.495c.307-.106.637-.164.98-.164.164 0 .325.013.482.039l3.317-6.001zm-3.799 7.962c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1zm-6-8c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill="#FFFFFF" /></svg>
+        </div>
+        <h4 className='text-white font-semibold py-2'>School Book (Sistema de Control Escolar)</h4>
+        <p className='space-y-4 text-base leading-7 text-slate-100 font-semibold dark:text-slate-200'>Realizado con: </p>
+        <p className='space-y-4 text-sm leading-7 text-slate-300 dark:text-slate-200'>Framework Laravel, Tailwind CSS & Livewire </p>
+        <div className='flex justify-center pt-5 pb-2'>
+          <button className='w-36 h-10 bg-indigo-200 font-semibold rounded-md hover:scale-90 duration-500'>
+            Ver más</button>
+        </div>
+      </div> */}
+
+
     </div>
   )
 }

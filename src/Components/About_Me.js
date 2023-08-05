@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function About_Me() {
   return (
-    <div className='flex flex-col justify-between md:flex-row'>
+    <div className='flex flex-col justify-between md:flex-ro'>
       <section className='flex flex-col justify-between items-center w-full md:flex-row'>
         <div className='w-full text-justify md:w-7/12' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
-          <h3 className='text-center font-bold text-3xl md:text-5xl md:text-justify pb-2 text-blue-700 dark:text-white'>Jesus Echeverria</h3>
+          <h3 className='text-center font-bold text-3xl md:text-3xl md:text-justify pb-2 text-blue-700 dark:text-white md:pb-5'>Jesus Echeverria</h3>
           <p className='font-bold text-base md:text-lg pb-5 dark:text-yellow-300'>Estudiante de ingeniería en sistemas computacionales del Tecnológico Nacional de México Campus Iguala Gro, México.</p>
          <div className='space-y-4 text-base leading-5 text-gray-600 dark:text-slate-200'>
            <p>Actualmente resido en la ciudad de Teloloapan, Gro, México, tengo 22 años y estoy cursando el último semestre de la carrera de Ingeniería en Sistemas Computacionales.</p>
@@ -19,6 +19,7 @@ export default function About_Me() {
         </a>
       </section>
       </section>
+      
     </div>
   )
 }
