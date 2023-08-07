@@ -10,7 +10,7 @@
   animation: alternate infinite App-logo-spin 7s;
 }
 
-/* @keyframes App-logo-spin {
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -18,8 +18,8 @@
   to {
     transform: rotate(360deg);
   }
-} */
-@keyframes App-logo-spin {
+}
+/* @keyframes App-logo-spin {
   0% {
     transform: rotate(0deg);
   }
@@ -30,7 +30,7 @@
   90% {
     transform: rotate(50deg);
   }
-}
+} */
 
 .flotar {
   animation: alternate infinite flotar 2s;

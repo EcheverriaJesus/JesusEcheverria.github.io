@@ -43,7 +43,7 @@ function App() {
             "Laravel.png",
             "Java.png"
           ].map((image, index) => (
-            <Logo_Tecnology key={index} image={UrlImg+ image} alt="" />
+            <Logo_Tecnology key={index} image={UrlImg + image} alt="" />
           ))}
         </section>
 
@@ -74,7 +74,7 @@ function App() {
       <div id="footer" className='' data-aos="fade-up" data-aos-delay="100" data-aos-duration="900">
         <Footer />
       </div>
-      
+
     </div>
   );
 }
