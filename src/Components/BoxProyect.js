@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function BoxProyect(props) {
     return (
-       <div className='w-auto h-auto' data-aos="zoom-out-up">
+       <div className='' data-aos="zoom-out-up">
          <section className='bg-gray-700 rounded-xl hover:bg-gray-900 hover:scale-110 duration-700 p-5 dark:bg-slate-600'>
              <figure className="bg-blue-800 w-10 h-10 p-2 rounded-md">
                  <svg width="24" height="24"><path d={props.d} fill="#FFFFFF" /></svg>

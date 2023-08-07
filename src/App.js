@@ -9,6 +9,7 @@ import About_Me from './Components/About_Me';
 import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import OtherActivities from './Components/OtherActivities';
+import { UrlImg } from './Variables/Variables';
 
 function App() {
   return (
@@ -36,13 +37,13 @@ function App() {
 
         <section className='flex justify-around w-full py-6 px-8 md:pt-5 lg:px-16 lg:pt-16 aparecer'>
           {[
-            "/JesusEcheverria.github.io/Images/Logos/Blender.png",
-            "/JesusEcheverria.github.io/Images/LogoHerramientas/C.png",
-            "/JesusEcheverria.github.io/Images/Logos/Git.png",
-            "/JesusEcheverria.github.io/Images/Logos/Laravel.png",
-            "/JesusEcheverria.github.io/Images/Logos/Java.png"
+            "Blender.png",
+            "C.png",
+            "Git.png",
+            "Laravel.png",
+            "Java.png"
           ].map((image, index) => (
-            <Logo_Tecnology key={index} image={image} alt="" />
+            <Logo_Tecnology key={index} image={UrlImg+ image} alt="" />
           ))}
         </section>
 
