@@ -27,7 +27,7 @@ export default function NavBar() {
 
   return (
     <div>
-      <Navbar className='fixed top-0 left-0 w-full z-50 text-black md:text-white md:bg-blue-900 lg:px-16' fluid rounded>
+      <Navbar className='fixed top-0 left-0 w-full z-50 text-black md:text-white md:bg-blue-900 lg:px-16 rounded-none' fluid rounded>
         <Navbar.Brand href="#home" className='lg:pl-10' onClick={scrollToSection}>
           <img alt="" className="mr-3 h-8 sm:h-9 rounded-full" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
