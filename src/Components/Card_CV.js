@@ -41,5 +41,6 @@ export default function Card_CV() {
         </div>
       </div>
     </div>
+    
   )
 }
