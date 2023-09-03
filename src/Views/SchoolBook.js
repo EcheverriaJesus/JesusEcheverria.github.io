@@ -3,10 +3,12 @@ import InformationProyect from '../Views/InformationProyect'
 import { Carousel } from 'flowbite-react';
 import ButtonIcon from '../Components/ButtonIcon';
 import { TitleSchoolBook } from '../Variables/Variables'
+import NavBar from '../Documents/NavBar';
 
 export default function SchoolBook() {
   return (
     <div className='flex flex-col h-screen w-full  pt-7 px-8 lg:px-24 md:pt-5 md:justify-start aparecer'>
+    <NavBar/>
     <InformationProyect/>
 
     <h3 className='text-center font-bold text-3xl pt-7 pb-4 md:text-5xl md:text-justify md:pb-3 lg:hidden'>SchoolBook</h3>

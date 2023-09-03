@@ -1,5 +1,3 @@
-
-
 .fondo-H {
   background-size: cover;
   background-position: center;
@@ -116,53 +114,3 @@
     color: yellow;
   }
 }
-
-/* .ann {
-  animation: sunshines 10s linear infinite;
-}
-
-@keyframes sunshines {
-  0% {
-    transform: scale(0.5);
-    opacity: 0.8;
-  }
-
-  25% {
-    transform: scale(1);
-    opacity: 0.6;
-  }
-
-  50% {
-    transform: scale(1.4);
-    opacity: 0;
-  }
-
-  75% {
-    transform: scale(1);
-    opacity: 0.8;
-  }
-
-  100% {
-    transform: scale(0.5);
-    opacity: 1;
-  }
-} */
-
-/* .obj{
-  animation: clouds 5s linear infinite;
-}
- */
-/* Animacion para efecto flotante de lado */
-/* @keyframes clouds {
-  0% {
-    transform: translateX(20px);
-  }
-
-  50% {
-    transform: translateX(0px);
-  }
-
-  100% {
-    transform: translateX(20px);
-  }
-} */

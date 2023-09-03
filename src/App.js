@@ -18,78 +18,40 @@ function App() {
     <div className="">
       <header className="h-auto fondo-H lg:bg-white lg:h-screen">
         <NavBar />
-        {/* <nav className='flex flex-col items-start gap-3 md:flex-row'>
-          <li className='text-white font-bold text-2xl list-none'>
-            <a href='#' className='flex gap-2'>
-            <p className='first-letter:text-3xl first-letter:text-blue-400'>Jesus</p>
-            <p className='first-letter:text-3xl first-letter:text-blue-400'>Echeverria</p>
-            </a>
-          </li>
-          <li className='text-white font-semibold text-normal list-none'>
-            <a href='#' className=''>
-              Experiencia
-            </a>
-          </li>
-          <li className='text-white font-semibold text-normal list-none'>
-            <a href='#' className=''>
-              Proyectos
-            </a>
-          </li>
-          <li className='text-white font-semibold text-normal list-none'>
-            <a href='#' className=''>
-              Acerca de
-            </a>
-          </li>
-          <li className='text-white font-semibold text-normal list-none'>
-            <a href='#' className=''>
-              Componentes
-            </a>
-          </li>
-          <li className='text-white font-semibold text-normal list-none'>
-            <a href='#' className=''>
-              Cursos
-            </a>
-          </li>
-          <li className='text-white font-semibold text-normal list-none'>
-            <a href='#' className=''>
-              Contacto
-            </a>
-          </li>
-         
-         
-           <div className='flex gap-2'>
-            <li className='list-none hover:scale-125 duration-200'>
-              <a href='#'>
-              <svg viewBox="0 0 24 24" className="feather feather-moon w-5 stroke-white stroke-2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-              </a>
-            </li>
-            <li className='list-none hover:scale-125 duration-200'>
-              <a href='#'>
-              <svg viewBox="0 0 24 24" className="feather feather-moon w-5 stroke-white stroke-2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </li>
-            <li className='list-none hover:scale-125 duration-200'>
-              <a href='#'>
-              <svg viewBox="0 0 24 24" className="feather feather-moon w-5 stroke-white stroke-2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-              </a>
-            </li>
-            <li className='list-none hover:scale-125 duration-200'>
-              <a href='#'>
-              <svg className='w-5 stroke-white stroke-2' viewBox="0 0 24 24" stroke-linecap="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-              </a>
-            </li>
-            <li className='list-none hover:scale-125 duration-200'>
-              <a href='#'>
-              <svg viewBox="0 0 24 24" className="feather feather-moon w-5 stroke-white stroke-2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
-              </a>
-            </li>
-            <li className='list-none hover:scale-125 duration-200'>
-              <a href='#'>
-              <svg viewBox="0 0 24 24" className="feather feather-moon w-5 stroke-white stroke-2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
-              </a>
-            </li>
-           </div>
-        </nav> */}
+
+        {/* <div className='h-screen bg-gradient-to-r from-black to-gray-900 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24 2xl:px-48'>
+          <Navbar />
+          <section className='flex w-full h-full'>
+            <div className='flex flex-col items-center justify-center w-1/2 h-full'>
+              <div className='flex flex-col gap-2 text-white font-bold text-5xl font-acme'>
+                <span>Hola, Soy</span>
+                <h1 className='text-cyan-500 '>Jesús Noé Echeverria Medina</h1>
+                <span className='text-5xl'>Ingeniero en Sistemas Computacionales.</span>
+              </div>
+
+              <div className='flex w-full pt-9 gap-16'>
+                <div>
+                  <button className="flex gap-3 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-7 py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
+                    <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path fill="#FFFFFF" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+                    Github
+                  </button>
+                </div>
+                <div className='flex justify-center items-center'>
+                  <a href='/JesusEcheverria.github.io/Images/ConstaLogros/C_Ingles.jpg' target="_blank" rel="noopener noreferrer">
+                    <p className='text-lg text-gray-300 hover:text-white hover:scale-110 duration-200'>Contactame &rarr;</p>
+                  </a>
+                </div>
+              </div>
+
+
+            </div>
+            <div className='flex justify-center items-center w-1/2 h-full'>
+             
+            </div>
+          </section>
+        </div> */}
+
+
         <section id='home' className="flex w-full h-auto px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex pt-20 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4 md:pt-40 aparecer">
             <h2 className="text-center text-2xl lg:text-2xl text-white font-bold tracking-widest">HOLA, SOY JESÚS NOÉ ECHEVERRIA MEDINA</h2>

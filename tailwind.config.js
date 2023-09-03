@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        LilitaOne: ["Lilita One", "cursive"],
+        'acme': ["Acme", "sans"]
       }
     },
   },
