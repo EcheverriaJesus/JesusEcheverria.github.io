@@ -9,7 +9,7 @@ export default function Logo_Tecnology(props) {
           fill="url(&quot;#SvgjsLinearGradient2171&quot;)"></path>
         <defs>
           <linearGradient gradientTransform="rotate(0 0.5 0.5)" id="SvgjsLinearGradient2171">
-            <stop stopOpacity=" 1" stopColor="rgba(4, 27, 125, 1)" offset="0"></stop>
+            <stop className='bg-gradient-to-r from-cyan-500 to-blue-500 ' stopOpacity=" 1" stopColor="rgba(4, 27, 125, 1)" offset="0"></stop>
             <stop stopOpacity=" 1" stopColor="#FFFFF0" offset="1"></stop>
             <stop stopOpacity=" 1" stopColor="#F0FFFF" offset="1"></stop>
            
