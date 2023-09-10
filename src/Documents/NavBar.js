@@ -17,10 +17,10 @@ const Navbar = () => {
   /* Opciones del menú */
   let Links = [
     { name: "Experiencia", link: "/Experiencia" },
-    { name: "Proyectos", link: "/" },
-    { name: "Acerca de", link: "/" },
-    { name: "Componentes", link: "/" },
-    { name: "Cursos", link: "/" },
+    { name: "Proyectos", link: "/Proyectos" },
+    { name: "Acerca de", link: "/AcercaDe" },
+    { name: "Componentes", link: "/Componentes" },
+    { name: "Cursos", link: "/Cursos" },
     { name: "Contacto", link: "/" }
   ]
 

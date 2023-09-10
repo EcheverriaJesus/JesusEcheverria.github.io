@@ -2,7 +2,7 @@
 import './App.css';
 import React from 'react';
 import Logo_Tecnology from './Components/Logo_Tecnology';
-import NavBar from './Components/NavBar';
+/* import NavBar from './Components/NavBar'; */
 import ButtonIcon from './Components/ButtonIcon';
 import Card_CV from './Components/Card_CV';
 import About_Me from './Components/About_Me';
@@ -10,16 +10,16 @@ import Experience from './Components/Experience';
 import Footer from './Components/Footer';
 import OtherActivities from './Components/OtherActivities';
 import { UrlImg } from './Variables/Variables';
-/* import Navbar from './Documents/NavBar'; */
+import Navbar from './Documents/NavBar';
 
 
 function App() {
   return (
     <div className="">
       <header className="h-auto fondo-H lg:bg-white lg:h-screen">
-        <NavBar />
+        {/* <NavBar /> */}
 
-        {/* <div className='h-screen bg-white px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24 2xl:px-64 dark:bg-gradient-to-r from-black to-gray-900'>
+        <div className='h-screen bg-white px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24 2xl:px-64 dark:bg-gradient-to-r from-black to-gray-900'>
           <Navbar />
           <section className='flex fle-col w-full h-full lg:flex-row'>
             <div className='flex flex-col items-center justify-center w-full h-full lg:w-1/2' data-aos="fade-up-right">
@@ -43,14 +43,14 @@ function App() {
                 </div>
               </div>
 
-             
+
               <div className='md:hidden justify-center items-center'>
-              <div className='relative pt-24 w-full h-full flex justify-center items-center'>
-                <div className='flex justify-center items-center w-56 h-40 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
-                  <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
-                    <img className="w-32 rounded-full hover:scale-150 duration-200" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" alt="" />
-                  </a>
-                </div>
+                <div className='relative pt-24 w-full h-full flex justify-center items-center'>
+                  <div className='flex justify-center items-center w-56 h-40 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
+                    <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
+                      <img className="w-32 rounded-full hover:scale-150 duration-200" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" alt="" />
+                    </a>
+                  </div>
                   <img className="absolute -bottom-14 left-8 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/React.png" alt="" />
                   <img className="absolute -bottom-8 right-6 w-12 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Electronjs.png" alt="" />
                   <img className="absolute top-32 -right-10 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Laravel.png" alt="" />
@@ -58,11 +58,11 @@ function App() {
                   <img className="absolute bottom-36 -left-4 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Git.png" alt="" />
                   <img className="absolute top-4 right-2 w-14 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Java.png" alt="" />
                   <img className="absolute top-4 right-28 w-9 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/C.png" alt="" />
+                </div>
               </div>
             </div>
-            </div>
 
-            
+
             <div className='hidden lg:flex flex-col justify-center items-center w-1/2 h-full'>
               <div className='relative w-full h-full flex justify-center items-center'>
                 <div className='flex justify-center items-center w-80 h-56 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
@@ -70,20 +70,17 @@ function App() {
                     <img className="w-48 rounded-full hover:scale-150 duration-200 hover:grayscale" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" alt="" />
                   </a>
                 </div>
-                  <img className="absolute top-36 right-32 w-10 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Laravel.png" alt="" />
-                  <img className="absolute top-64 left-28 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Electronjs.png" alt="" />
-                  <img className="absolute top-32 left-44 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/React.png" alt="" />
-                  <img className="absolute top-40 right-56 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Tailwind.png" alt="" />
-                  <img className="absolute bottom-36 right-56 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Git.png" alt="" />
-                  <img className="absolute bottom-48 left-24 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Java.png" alt="" />
-                  <img className="absolute bottom-64 right-28 w-12 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/C.png" alt="" />
-                
+                <img className="absolute top-36 right-32 w-10 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Laravel.png" alt="" />
+                <img className="absolute top-64 left-28 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Electronjs.png" alt="" />
+                <img className="absolute top-32 left-44 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/React.png" alt="" />
+                <img className="absolute top-40 right-56 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Tailwind.png" alt="" />
+                <img className="absolute bottom-36 right-56 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Git.png" alt="" />
+                <img className="absolute bottom-48 left-24 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Java.png" alt="" />
+                <img className="absolute bottom-64 right-28 w-12 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/C.png" alt="" />
               </div>
             </div>
-
           </section>
-        </div> */}
-
+        </div>
 
         <section id='home' className="flex w-full h-auto px-6 sm:h-4/6 pt-6 sm:pt-2 md:px-24 grid-rows-2 fondo_header">
           <section className="flex pt-20 w-full sm:py-24 md:w-2/3 flex-col justify-center items-center gap-4 md:pt-40 aparecer">
