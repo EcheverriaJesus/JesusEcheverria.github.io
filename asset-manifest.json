@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/JesusEcheverria.github.io/static/css/main.8e590ac6.css",
-    "main.js": "/JesusEcheverria.github.io/static/js/main.da725c36.js",
+    "main.js": "/JesusEcheverria.github.io/static/js/main.8ad16a74.js",
     "static/js/787.16b9702e.chunk.js": "/JesusEcheverria.github.io/static/js/787.16b9702e.chunk.js",
     "static/media/bussiness.svg": "/JesusEcheverria.github.io/static/media/bussiness.04178c40ce8d3d79e2d578e5e139f91b.svg",
     "index.html": "/JesusEcheverria.github.io/index.html",
     "main.8e590ac6.css.map": "/JesusEcheverria.github.io/static/css/main.8e590ac6.css.map",
-    "main.da725c36.js.map": "/JesusEcheverria.github.io/static/js/main.da725c36.js.map",
+    "main.8ad16a74.js.map": "/JesusEcheverria.github.io/static/js/main.8ad16a74.js.map",
     "787.16b9702e.chunk.js.map": "/JesusEcheverria.github.io/static/js/787.16b9702e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e590ac6.css",
-    "static/js/main.da725c36.js"
+    "static/js/main.8ad16a74.js"
   ]
 }
