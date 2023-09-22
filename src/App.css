@@ -46,7 +46,7 @@
 }
 
 .flotarIcono {
-  animation: alternate infinite flotarIcono 1.5s;
+  animation: alternate infinite flotarIcono 2.5s;
 }
 
 @keyframes flotarIcono {
@@ -144,5 +144,19 @@
 
   100% {
     box-shadow: 0 0 0 36px #69ffa800;
+  }
+}
+
+.girarLogo {
+  animation: Girar infinite 20s linear;
+}
+
+
+@keyframes Girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }

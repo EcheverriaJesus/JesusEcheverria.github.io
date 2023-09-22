@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'acme': ["Acme", "sans"]
+        'acme': ["Acme", "sans"],
+        'roboto': ["Roboto", "sans-serif"]
       }
     },
   },
