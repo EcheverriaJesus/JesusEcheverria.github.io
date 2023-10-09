@@ -37,6 +37,7 @@ const routes = [
         path: '/Cursos',
         element: <Cursos />,
     },
+    /* Opciones de proyectos */
     {
         path: '/Developers',
         element: <Developers />,
