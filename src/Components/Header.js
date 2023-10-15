@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className='h-screen'>
        <NavBar />
-          <section className='flex fle-col w-full h-full lg:flex-row border-b border-gray-400 dark:border-gray-600'>
+          <section className='flex fle-col w-full h-full lg:flex-row border-b border-gray-300 dark:border-gray-600'>
             <div className='flex flex-col items-center justify-center w-full h-full lg:w-1/2 lg:items-start' data-aos="fade-up-right">
               <div className='flex flex-col gap-2 text-white font-bold font-acme'>
                 <span className='text-black dark:text-white text-2xl lg:text-3xl pb-3'>Hola 👋, Soy</span>

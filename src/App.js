@@ -15,22 +15,22 @@ function App() {
       <Header />
 
       <main>
-        <div id="Experiencia" className='py-20 border-b border-gray-400 dark:border-gray-600'>
+        <div id="Experiencia" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Experiencia />
         </div>
-        <div id="Proyectos" className='py-20 border-b border-gray-400 dark:border-gray-600'>
+        <div id="Proyectos" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Proyectos />
         </div>
-        <div id="AcercaDe" className='py-20 border-b border-gray-400 dark:border-gray-600'>
+        <div id="AcercaDe" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <AcercaDe />
         </div>
-        <div id="Componentes" className='py-20 border-b border-gray-400 dark:border-gray-600'>
+        <div id="Componentes" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Componentes />
         </div>
-        <div id="Cursos" className='py-20 border-b border-gray-400 dark:border-gray-600'>
+        <div id="Cursos" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Cursos />
         </div>
-        <div id="Contacto" className='py-20 border-b border-gray-400 dark:border-gray-600'>
+        <div id="Contacto" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Contacto />
         </div>
       </main>

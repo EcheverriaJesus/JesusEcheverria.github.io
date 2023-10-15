@@ -42,10 +42,9 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <nav className='flex flex-col items-start w-full bg-white fixed top-0 left-0 z-50 py-2 pb-3 px-6 sm:px-8 md:px-10 lg:flex-row lg:px-16 xl:px-24 2xl:px-64 lg:pt-4 lg:items-end dark:bg-gray-800 lg:dark:bg-gradient-to-r from-black to-gray-900'>
+      <nav className='flex flex-col items-start w-full bg-white fixed top-0 left-0 z-50 py-2 pb-3 px-6 sm:px-8 md:px-10 lg:flex-row lg:px-16 xl:px-24 2xl:px-64 lg:pt-4 lg:items-center dark:bg-gray-800 lg:dark:bg-gradient-to-r from-black to-gray-900'>
         {/* Nombre en el NavBar */}
-        <div className='flex items-center justify-between w-full h-10 lg:w-auto'>
+        <section className='flex items-center justify-between w-full h-10 lg:w-auto'>
           <div className='font-bold text-2xl pr-9 dark:text-white'>
             <a href='/' className='flex gap-2'>
               <p className='first-letter:text-3xl first-letter:text-cyan-500'>Jesus</p>
@@ -86,9 +85,9 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-        </div>
+        </section>
 
-        <div className={`${abierto ? 'block' : 'hidden'} pt-3 lg:flex lg:items-center lg:w-auto`}>
+        <section className={`${abierto ? 'block' : 'hidden'} pt-3 lg:flex lg:items-center lg:w-auto`}>
           <ul className='space-y-3 lg:flex lg:space-x-5 lg:space-y-0'>
             {
               Links.map((link, index) => (
@@ -161,10 +160,8 @@ const Navbar = () => {
               </div>
             </li>
           </div>
-        </div>
+        </section>
       </nav>
-    </div>
-
   );
 };
 export default Navbar;
