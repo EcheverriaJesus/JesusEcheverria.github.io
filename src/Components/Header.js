@@ -35,7 +35,7 @@ export default function Header() {
                       <img className="w-32 rounded-full hover:scale-150 duration-200" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" alt="" />
                     </a>
                   </div>
-                  <img className="absolute -bottom-14 left-8 w-12 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/React.png" alt="" />
+                  <img className="absolute -bottom-14 left-8 w-12 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/logo192.png" alt="" />
                   <img className="absolute -bottom-8 right-6 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Java.png" alt="" />
                   <img className="absolute top-32 -right-10 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Laravel.png" alt="" />
                   <img className="absolute top-36 right-56 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Tailwind.png" alt="" />
@@ -56,7 +56,7 @@ export default function Header() {
                 </div>
                 <img className="absolute top-4 right-16 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Laravel.png" alt="" />
                 <img className="absolute top-48 right-16 w-16 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Electronjs.png" alt="" />
-                  <img className="absolute bottom-52 left-14 w-20 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/React.png" alt="" />
+                  <img className="absolute bottom-52 left-14 w-20 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/logo192.png" alt="" />
                 <img className="absolute top-52 right-64 w-16 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Tailwind.png" alt="" />
                 <img className="absolute top-48 left-16 w-12 flotar" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Git.png" alt="" />
                 <img className="absolute bottom-20 left-8 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Java.png" alt="" />

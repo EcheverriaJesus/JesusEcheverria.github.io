@@ -34,11 +34,6 @@ function App() {
           <Contacto />
         </div>
       </main>
-      <img className="" src="/JesusEcheverria.github.io/Images/PosSystem/PosSystemF.jpg" alt="" />
-      <img className="" src="/JesusEcheverria.github.io/Images/SchoolBook/SchoolBookF.jpg" alt="" />
-      <img className="" src="/JesusEcheverria.github.io/Images/Cinteolt/CinteoltF.jpg" alt="" />
-      <img className="" src="/JesusEcheverria.github.io/Images/Developers/DevelopersF.jpg" alt="" />
-      <img className="" src="/JesusEcheverria.github.io/Images/3D/BlenderF.jpg" alt="" />
     </div>
   );
 }
