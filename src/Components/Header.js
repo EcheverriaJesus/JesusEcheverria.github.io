@@ -27,8 +27,7 @@ export default function Header() {
                 </div>
               </div>
 
-
-              <div className='lg:hidden justify-center items-center'>
+              <div className='md:hidden justify-center items-center'>
                 <div className='relative pt-24 w-full h-full flex justify-center items-center'>
                   <div className='flex justify-center items-center w-56 h-40 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
                     <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
@@ -46,8 +45,7 @@ export default function Header() {
               </div>
             </div>
 
-
-            <div className='hidden lg:flex flex-col justify-center items-center w-1/2 h-full '>
+            <div className='hidden md:flex flex-col justify-center items-center w-1/2 h-full '>
               <div className='relative w-full max-h-40 flex justify-center items-center'>
                 <div className='flex justify-center items-center w-96 h-64 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
                   <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">

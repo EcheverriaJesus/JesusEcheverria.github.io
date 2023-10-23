@@ -4,7 +4,7 @@ import React from 'react';
 import Header from './Components/Header';
 import Experiencia from './Views/OpcionesMenu/Experiencia';
 import Proyectos from './Views/OpcionesMenu/Proyectos';
-import AcercaDe from './Views/OpcionesMenu/AcercaDe';
+/* import AcercaDe from './Views/OpcionesMenu/AcercaDe'; */
 import Componentes from './Views/OpcionesMenu/Componentes';
 import Cursos from './Views/OpcionesMenu/Cursos';
 import Contacto from './Views/OpcionesMenu/Contacto';
@@ -21,9 +21,9 @@ function App() {
         <div id="Proyectos" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Proyectos />
         </div>
-        <div id="AcercaDe" className='py-20 border-b border-gray-300 dark:border-gray-600'>
+        {/* <div id="AcercaDe" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <AcercaDe />
-        </div>
+        </div> */}
         <div id="Componentes" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Componentes />
         </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 export default function AcercaDe() {
   return (
@@ -9,4 +9,4 @@ export default function AcercaDe() {
         <p className='text-gray-800 dark:text-white w-1/2 font-roboto text-base pt-7'>Durante mi carrera en el mundo del desarrollo de software, he tenido la oportunidad de participar en proyectos colaborativos en equipo. Estas experiencias me han permitido adquirir un valioso conjunto de habilidades y conocimientos. Algunos de los proyectos en los que he trabajado son los siguientes:</p>
     </div>
   )
-}
+} */

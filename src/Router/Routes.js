@@ -6,9 +6,9 @@ import Developers from '../Views/Developers'
 import SchoolBook from '../Views/SchoolBook'
 import Cinteolt from '../Views/Cinteotl'
 import Experiencia from '../Views/OpcionesMenu/Experiencia'
-import Cursos from '../Views/OpcionesMenu/AcercaDe'
+import Cursos from '../Views/OpcionesMenu/Cursos'
 import Proyectos from '../Views/OpcionesMenu/Proyectos'
-import AcercaDe from '../Views/OpcionesMenu/AcercaDe'
+/* import AcercaDe from '../Views/OpcionesMenu/AcercaDe' */
 import Componentes from '../Views/OpcionesMenu/Componentes'
 
 const routes = [
@@ -25,10 +25,10 @@ const routes = [
         path: '/Proyectos',
         element: <Proyectos />,
     },
-    {
+    /* {
         path: '/AcercaDe',
         element: <AcercaDe />,
-    },
+    }, */
     {
         path: '/Componentes',
         element: <Componentes />,
