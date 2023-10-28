@@ -1,10 +1,14 @@
-# Getting Started with Create React App
+# Mi Portafolio💼⚛️👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es para mostrar información sobre mi experiencia en el mundo del desarrollo de software👨‍💻
 
-## Available Scripts
+## Versiones de mi Portafolio
 
-In the project directory, you can run:
+V1:
+<img src="/JesusEcheverria.github.io/Images/Readme/Portfolio_V1.png" alt="" />
+
+V2:
+<img src="/JesusEcheverria.github.io/Images/Readme/Portfolio_V2.png" alt="" />
 
 ### `npm start`
 
