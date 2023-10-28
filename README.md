@@ -5,10 +5,10 @@ Este proyecto es para mostrar información sobre mi experiencia en el mundo del 
 ## Versiones de mi Portafolio
 
 V1:
-<img src="/JesusEcheverria.github.io/Images/Readme/Portfolio_V1.png" alt="" />
+<img src="https://github.com/EcheverriaJesus/JesusEcheverria.github.io/blob/main/src/Images/Readme/Portfolio_V1.png" alt="" />
 
 V2:
-<img src="/JesusEcheverria.github.io/Images/Readme/Portfolio_V2.png" alt="" />
+<img src="https://github.com/EcheverriaJesus/JesusEcheverria.github.io/blob/main/src/Images/Readme/Portfolio_V2.png">
 
 ### `npm start`
 
