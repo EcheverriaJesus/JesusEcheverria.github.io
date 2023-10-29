@@ -6,7 +6,7 @@ export default function Componentes() {
     <>
       <h3 className='text-3xl lg:text-4xl font-semibold font-roboto dark:text-white'>Recursos web 🤖👨‍🔧!!</h3>
       <p className='text-gray-800 dark:text-gray-300 font-roboto text-base pt-3'>Me gusta aportar contenido a la comunidad del desarrollo de software, y aqui esta mi granito de arena, he creado algunos componentes para el desarrollo web, estos componentes estan realizados con la tecnologia Tailwind css.</p>
-      <section className='grid grid-cols-1 w-full py-14 gap-16 md:grid-cols-2 md:gap-10'>
+      <section className='grid grid-cols-1 w-full py-14 gap-16 md:grid-cols-2 md:gap-10 lg:grid-cols-3'>
         <article className='w-full h-auto space-y-7'>
           <div className='text-center w-full'>
             <h4 className='text-xl lg:text-2xl font-semibold font-roboto dark:text-white'>UIVERSE</h4>
@@ -20,6 +20,19 @@ export default function Componentes() {
             </a>
           </div>
         </article>
+        <article className='w-full h-auto space-y-7'>
+          <div className='text-center w-full'>
+            <h4 className='text-xl lg:text-2xl font-semibold font-roboto dark:text-white'>Blog 📝</h4>
+            <p className='font-roboto text-sm text-gray-700 dark:text-gray-400'>
+              Te compartó los paso para traducir Laravel Breeze y Jetstream a español.
+            </p>
+          </div>
+          <div>
+            <a href='https://dev.to/echeverriajesus/breeze-y-jetstream-en-espanol-4onn' target='_blank' rel='noopener noreferrer'>
+              <img className="rounded-lg hover:scale-95 duration-200" src="/JesusEcheverria.github.io/Images/Readme/JBEspañol.png" alt="" />
+            </a>
+          </div>
+        </article>
         <article className='flex flex-col justify-center items-center text-center w-full h-auto space-y-7'>
           <div className=''>
             <h4 className='text-xl lg:text-2xl font-semibold font-roboto dark:text-white'>Componente NavBar</h4>
@@ -27,9 +40,10 @@ export default function Componentes() {
               Navbar de esta pagina, esta creado para React.js con Tailwind css.
             </p>
           </div>
-          <p className='font-roboto text-sm text-gray-600'>No olvides dejarme una ⭐</p>
+          <p className='font-roboto text-sm text-gray-600 dark:text-gray-400'>No olvides dejarme una ⭐</p>
           <BotonGitHub url='https://github.com/EcheverriaJesus/Component_NavBar_React'/>
         </article>
+        
       </section>
     </>
   )
