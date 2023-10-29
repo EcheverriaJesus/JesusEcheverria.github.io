@@ -64,11 +64,11 @@ export default function Proyectos() {
         </article>
           {/* <img className="absolute bottom-14 left-80 w-12 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Laravel.png" alt="" /> */}
           {/* <img className="absolute -bottom-8 right-6 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Java.png" alt="" /> */}
-          <span className="w-12 h-12 bg-transparent rounded-full absolute border  animate-pulse border-gray-300 dark:border-gray-700"></span>
+          {/* <span className="w-12 h-12 bg-transparent rounded-full absolute border  animate-pulse border-gray-300 dark:border-gray-700"></span>
           <span className="w-32 h-32 bg-transparent rounded-full absolute border animate-pulse border-gray-200 dark:border-gray-800"></span>
           <span className="w-64 h-64 bg-transparent rounded-full absolute border border-gray-200 dark:border-gray-800"></span>
           <span className="w-96 h-96 bg-transparent rounded-full absolute border border-gray-200 dark:border-gray-800"></span>
-          <span className="w-[550px] h-[550px] bg-transparent rounded-full absolute border border-gray-100 dark:border-gray-900"></span>
+          <span className="w-[550px] h-[550px] bg-transparent rounded-full absolute border border-gray-100 dark:border-gray-900"></span> */}
           {/* <span className="w-16 h-16 bg-[#180828] rounded-full absolute dark:bg-[#A2E9C1] animate-ping"></span> */}
       </section>
     </div>

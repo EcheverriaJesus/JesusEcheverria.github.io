@@ -7,7 +7,7 @@ export default function Header() {
        <NavBar />
           <section className='flex fle-col w-full h-full lg:flex-row border-b border-gray-300 dark:border-gray-600'>
             <div className='flex flex-col items-center justify-center w-full h-full lg:w-1/2 lg:items-start' data-aos="fade-up-right">
-              <div className='flex flex-col gap-2 text-white font-bold font-acme'>
+              <div className='flex flex-col gap-2 text-white font-bold font-acme pt-0 md:pt-5 lg:pt-0'>
                 <span className='text-black dark:text-white text-2xl lg:text-3xl pb-3'>Hola 👋, Soy</span>
                 <h1 className='bg-clip-text text-transparent bg-gradient-to-l from-violet-800 to-cyan-500 text-4xl lg:text-5xl dark:from-yellow-300 dark:to-cyan-500'>Jesús Noé Echeverria Medina</h1>
                 <span className='text-3xl text-black dark:text-white lg:text-3xl font-roboto'>Ingeniero en Sistemas Computacionales</span>
@@ -41,7 +41,7 @@ export default function Header() {
               </div>
             </div>
 
-            <div className='hidden md:flex flex-col justify-center items-center w-1/2 h-full '>
+            <div className='hidden lg:flex flex-col justify-center items-center w-1/2 h-full'>
               <div className='relative w-full max-h-40 flex justify-center items-center'>
                 <div className='flex justify-center items-center w-96 h-64 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
                   <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
