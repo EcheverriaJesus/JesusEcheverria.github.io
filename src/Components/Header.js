@@ -18,7 +18,7 @@ export default function Header() {
                 <BotonGitHub url='https://github.com/EcheverriaJesus'/>
                 <div className='flex justify-center items-center'>
                   <a href='mailto:jesus.echeverria017@gmail.com' target="_blank" rel="noopener noreferrer">
-                    <p className='text-lg text-gray-900 font-semibold hover:font-bold hover:scale-110 duration-200 dark:text-gray-300 dark:hover:text-white'>Contactame &rarr;</p>
+                    <p className='text-base text-gray-900 font-semibold hover:font-bold hover:scale-110 duration-200 dark:text-gray-300 dark:hover:text-white md:text-lg'>Contactame &rarr;</p>
                   </a>
                 </div>
               </div>
