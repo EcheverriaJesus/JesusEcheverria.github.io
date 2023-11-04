@@ -30,7 +30,7 @@ export default function Experiencia() {
           <h3 className='text-base pb-5 lg:text-base font-semibold font-roboto text-yellow-300'>Cada dia se aprende algo nuevo</h3>
         </div>
         <div>
-        <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgPhp }} />
+          <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgPhp }} />
           <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgJava }} />
           <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgFigma }} />
           <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgTailwind }} />
@@ -40,6 +40,7 @@ export default function Experiencia() {
           <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgBlender }} />
         </div>
       </section>
+      
     </div>
   )
 }

@@ -27,12 +27,15 @@ function App() {
         <div id="Componentes" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Componentes />
         </div>
+
         <div id="Cursos" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Cursos />
         </div>
+
         <div id="Contacto" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Contacto />
         </div>
+       
       </main>
     </div>
   );
