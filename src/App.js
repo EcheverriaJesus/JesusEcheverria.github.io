@@ -12,18 +12,19 @@ import Contacto from './Views/OpcionesMenu/Contacto';
 function App() {
   return (
     <div className="px-6 sm:px-8 md:px-10 lg:px-16 xl:px-24 2xl:px-64 bg-white dark:bg-gradient-to-r from-black to-gray-900">
-      <Header />
-
+        <Header />
       <main>
         <div id="Experiencia" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Experiencia />
         </div>
+        {/* <section className='slider'>
+        <img className='imgs' src='https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif' alt=''/>
+        <img className='imgs' src='https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif' alt=''/>
+        <img className='imgs' src='https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif' alt=''/>
+        </section> */}
         <div id="Proyectos" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Proyectos />
         </div>
-        {/* <div id="AcercaDe" className='py-20 border-b border-gray-300 dark:border-gray-600'>
-          <AcercaDe />
-        </div> */}
         <div id="Componentes" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Componentes />
         </div>
@@ -38,6 +39,7 @@ function App() {
        
       </main>
     </div>
+    
   );
 }
 export default App;

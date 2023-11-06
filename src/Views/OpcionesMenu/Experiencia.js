@@ -19,11 +19,11 @@ export default function Experiencia() {
 
       <section className='flex justify-between items-center h-96 w-full shadow-2xl bg-gradient-to-r from-[#72b4d0] from-10% via-[#6f0d78] via-50% to-[#180828] to-90% rounded-xl mt-20 dark:to-[#3e065e] to-90%'>
         <div>
-          <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgAsp }} />
-          <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgLaravel }} />
-          <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgReact }} />
-          <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgCake }} />
-          <div className='w-10' dangerouslySetInnerHTML={{ __html: SvgElectron }} />
+          <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgAsp }} />
+          <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgLaravel }} />
+          <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgReact }} />
+          <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgCake }} />
+          <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgElectron }} />
         </div>
         <div>
           <h3 className='text-xl pb-5 lg:text-4xl font-semibold font-acme text-white'>¡¡ Tecnologias !!👨‍💻</h3>
