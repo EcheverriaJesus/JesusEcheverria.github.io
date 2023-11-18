@@ -9,7 +9,21 @@ module.exports = {
       fontFamily: {
         'acme': ["Acme", "sans"],
         'roboto': ["Roboto", "sans-serif"]
-      }
+      },
+      animation: {
+        'infinite-scroll': 'infinite-scroll 50s linear infinite',
+        'infinite-scroll2': 'infinite-scroll2 50s linear infinite',
+      },
+      keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
+        'infinite-scroll2': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(100%)' },
+        }
+      }  
     },
   },
   plugins: [
