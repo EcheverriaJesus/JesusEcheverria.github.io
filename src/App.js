@@ -12,7 +12,9 @@ import Contacto from './Views/OpcionesMenu/Contacto';
 function App() {
   return (
     <div className="margen bg-white dark:bg-gradient-to-r from-black to-gray-900">
-        <Header />
+        <div className=''>
+          <Header />
+        </div>
       <main>
         <div id="Experiencia" className='py-20 border-b border-gray-300 dark:border-gray-600'>
           <Experiencia />
