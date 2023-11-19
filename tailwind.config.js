@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'acme': ["Acme", "sans"],
-        'roboto': ["Roboto", "sans-serif"]
+        'roboto': ["Roboto", "sans-serif"],
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 50s linear infinite',

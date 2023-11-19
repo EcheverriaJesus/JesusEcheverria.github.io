@@ -28,7 +28,7 @@ export default function Slider() {
         ul.insertAdjacentHTML('afterend', ul.outerHTML);
         ul.nextSibling.setAttribute('aria-hidden', 'true');
     })"
-                class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+                className="w-full py-3 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
             >
         {/* <ul x-ref="logos" className="flex items-center justify-center md:justify-start [&_li]:mx-5 lg:[&_li]:mx-14 [&_img]:max-w-none animate-infinite-scroll">
             {
@@ -39,7 +39,7 @@ export default function Slider() {
               ))
             }
           </ul> */}
-                <ul x-ref="logos" className="flex items-center justify-center md:justify-start [&_li]:mx-5 lg:[&_li]:mx-14 [&_img]:max-w-none animate-infinite-scroll">
+                <ul x-ref="logos" className="flex items-center justify-center md:justify-start [&_li]:mx-3 lg:[&_li]:mx-14 [&_img]:max-w-none animate-infinite-scroll">
                     <li>
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgAsp }} />
                     </li>

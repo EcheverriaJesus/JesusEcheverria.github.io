@@ -5,7 +5,7 @@ export default function Proyectos() {
     <div className='h-auto flex flex-col justify-center items-center'>
     
       <section className='flex flex-col justify-center items-center w-full'>
-        <h3 className='text-gray-900 text-3xl pb-2 lg:text-4xl font-semibold dark:text-gray-200 font-roboto'>Algunos de mis Proyectos</h3>
+        <h3 className='text-2xl lg:text-5xl font-semibold font-acme text-gray-900 dark:text-white pb-3'>Algunos de mis Proyectos</h3>
         <p className='text-gray-600 text-md lg:text-lg dark:text-gray-400 font-roboto'>Interfaces atractivas,  intuitivas y con un buen flujo de UX</p>
         
       </section>
