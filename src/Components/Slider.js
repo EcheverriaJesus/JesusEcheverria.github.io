@@ -44,13 +44,13 @@ export default function Slider() {
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgAsp }} />
                     </li>
                     <li>
-                        <div className='w-10 imgs girarLogo' dangerouslySetInnerHTML={{ __html: SvgJava }} />
+                        <div className='w-10 img' dangerouslySetInnerHTML={{ __html: SvgJava }} />
                     </li>
                     <li>
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgFigma }} />
                     </li>
                     <li>
-                        <div className='w-10 imgs girarLogo' dangerouslySetInnerHTML={{ __html: SvgLaravel }} />
+                        <div className='w-10 img' dangerouslySetInnerHTML={{ __html: SvgLaravel }} />
                     </li>
                     <li>
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgElectron }} />
@@ -62,10 +62,10 @@ export default function Slider() {
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgReact }} />
                     </li>
                     <li>
-                        <div className='w-10 imgs girarLogo' dangerouslySetInnerHTML={{ __html: SvgPhp }} />
+                        <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgPhp }} />
                     </li>
                     <li>
-                        <div className='w-10 imgs girarLogo' dangerouslySetInnerHTML={{ __html: SvgTailwind }} />
+                        <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgTailwind }} />
                     </li>
                     <li>
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgSass }} />
@@ -74,10 +74,10 @@ export default function Slider() {
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgGit }} />
                     </li>
                     <li>
-                        <div className='w-10 imgs flotar' dangerouslySetInnerHTML={{ __html: SvgLivewire }} />
+                        <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgLivewire }} />
                     </li>
                     <li>
-                        <div className='w-10 imgs girarLogo' dangerouslySetInnerHTML={{ __html: SvgBlender }} />
+                        <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgBlender }} />
                     </li>
                 </ul>
             </div>
