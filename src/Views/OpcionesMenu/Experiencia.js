@@ -3,11 +3,11 @@ import Slider from '../../Components/Slider'
 import ContributionComponent from '../../Components/ContributionComponent'
 export default function Experiencia() {
   let certificados =[
-    {name:"Constancia de Inglés", number:"1", url:"/JesusEcheverria.github.io/Documents/CV_JN.pdf"},
-    {name:"Constancia Curso Laravel", number:"2", url:"/JesusEcheverria.github.io/Documents/CV_JN.pdf"},
-    {name:"Certificado HTML & CSS", number:"3", url:"/JesusEcheverria.github.io/Documents/CV_JN.pdf"},
-    {name:"Certificado Introducción a la Programación", number:"4", url:"/JesusEcheverria.github.io/Documents/CV_JN.pdf"},
-    {name:"Certificado Curso Electron", number:"5", url:"/JesusEcheverria.github.io/Documents/CV_JN.pdf"}
+    {name:"Constancia de Inglés", number:"1", url:"/JesusEcheverria.github.io/Images/ConstaLogros/C_Ingles.jpg"},
+    {name:"Constancia Curso Laravel", number:"2", url:"/JesusEcheverria.github.io/Images/ConstaLogros/R_Laravel.jpg"},
+    {name:"Certificado HTML & CSS", number:"3", url:"/JesusEcheverria.github.io/Images/ConstaLogros/CertifiHTMLCSS.png"},
+    {name:"Certificado Introducción a la Programación", number:"4", url:"/JesusEcheverria.github.io/Images/ConstaLogros/CertifiProgramation.png"},
+    {name:"Certificado Curso Electron", number:"5", url:"/JesusEcheverria.github.io/Images/ConstaLogros/CertifiElectron.png"}
   ]
   return (
     <div className='flex flex-col h-auto w-full space-y-20 lg:space-y-28'>

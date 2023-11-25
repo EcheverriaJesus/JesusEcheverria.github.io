@@ -6,7 +6,7 @@ export default function Componentes() {
     <div className='flex items-center flex-col 2xl:justify-center'>
       <h3 className='text-2xl lg:text-5xl font-semibold font-acme text-gray-700 dark:text-white'>Recursos web 🤖👨‍🔧!!</h3>
       <p className='text-gray-800 dark:text-gray-300 font-roboto text-base pt-3'>Me gusta aportar contenido a la comunidad del desarrollo de software, y aqui esta mi granito de arena, he creado algunos componentes para el desarrollo web, estos componentes estan realizados con la tecnologia Tailwind css.</p>
-      <section className='grid grid-cols-1 w-full py-14 gap-16 md:grid-cols-2 md:gap-10 lg:grid-cols-2'>
+      <section className='grid grid-cols-1 w-full pt-14 gap-16 md:grid-cols-2 md:gap-10 lg:grid-cols-2'>
         <article className='w-full h-auto space-y-7'>
           <div className='text-center w-full'>
             <h4 className='text-xl lg:text-2xl font-semibold font-roboto dark:text-white'>UIVERSE</h4>
@@ -33,7 +33,7 @@ export default function Componentes() {
             </a>
           </div>
         </article>
-        <article className='flex flex-col justify-center items-center text-center w-full h-auto space-y-7 2xl:pt-5'>
+        <article className='flex flex-col justify-center items-center text-center w-full space-y-7 2xl:pt-5'>
           <div className=''>
             <h4 className='text-xl lg:text-2xl font-semibold font-roboto dark:text-white'>Componente NavBar</h4>
             <p className='font-roboto text-sm text-gray-700 dark:text-gray-400'>

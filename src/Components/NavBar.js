@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 /* import { Link } from 'react-router-dom' */
 
 const Navbar = () => {
@@ -16,12 +17,12 @@ const Navbar = () => {
 
   /* Opciones del menú */
   let Links = [
-    { name: "Experiencia", section: "#Experiencia" },
-    { name: "Proyectos", section: "#Proyectos" },
+    { name: "Experiencia", section: "Experiencia" },
+    { name: "Proyectos", section: "Proyectos" },
     /* { name: "Acerca de", section: "#AcercaDe" }, */
-    { name: "Recursos", section: "#Componentes" },
-    { name: "Cursos", section: "#Cursos" },
-    { name: "Contacto", section: "#Contacto" }
+    { name: "Recursos", section: "Componentes" },
+    { name: "Cursos", section: "Cursos" },
+    { name: "Contacto", section: "Contacto" }
   ]
 
   /* Funcion para verfiifcar el Efecto de Dark */
@@ -33,23 +34,15 @@ const Navbar = () => {
     }
   }, [theme]);
 
-  /* Variable para realizar el efecto Scroll */
-  const scrollToSection = (e) => {
-    e.preventDefault();
-    const targetId = e.currentTarget.getAttribute('href');
-    const targetElement = document.querySelector(targetId);
-    targetElement.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
       <nav className='flex flex-col items-start w-full bg-white fixed top-0 left-0 z-50 py-2 pb-3 lg:flex-row margen lg:pt-4 lg:items-center dark:bg-gray-800 lg:dark:bg-gradient-to-r from-black to-gray-900'>
         {/* Nombre en el NavBar */}
         <section className='flex items-center justify-between w-full h-10 lg:w-auto'>
           <div className='font-bold text-2xl pr-9 dark:text-white'>
-            <a href='/' className='flex gap-2'>
+            <Link to={"header"} spy={true} smooth={true} offset={0} duration={500} className='flex gap-2 cursor-pointer'>
               <p className='first-letter:text-3xl first-letter:text-cyan-500'>Jesus</p>
               <p className='first-letter:text-3xl first-letter:text-cyan-500'>Echeverria</p>
-            </a>
+            </Link>
           </div>
 
           {/* Boton Hamburguesa */}
@@ -93,7 +86,7 @@ const Navbar = () => {
               Links.map((link, index) => (
                 <li key={index}>
                   {/* <Link to={link.link} onClick={scrollToSection} href={link.href}> */}
-                  <a onClick={scrollToSection} className='text-gray-700 hover:font-semibold duration-500 dark:text-gray-300 dark:hover:text-yellow-300' href={link.section}>{link.name}</a>
+                  <Link to={link.section} spy={true} smooth={true} offset={-100} duration={500} className='text-gray-700 hover:font-semibold duration-500 dark:text-gray-300 dark:hover:text-yellow-300' href={link.section}>{link.name}</Link>
                   {/*  </Link> */}
                 </li>
               ))

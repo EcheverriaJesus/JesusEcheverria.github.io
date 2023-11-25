@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className='h-screen'>
        <NavBar />
-          <section className='flex fle-col w-full h-full lg:flex-row border-b border-gray-300 dark:border-gray-600'>
+          <section className='flex fle-col w-full h-full lg:flex-row'>
             <div className='flex flex-col items-center justify-center w-full h-full lg:w-1/2 lg:items-start' data-aos="fade-up-right">
               <div className='flex flex-col gap-2 text-white font-bold font-acme pt-0 md:pt-5 lg:pt-0'>
                 <span className='text-black dark:text-white text-2xl lg:text-3xl pb-3'>Hola 👋, Soy</span>
@@ -14,7 +14,7 @@ export default function Header() {
                 <span className='bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-fuchsia-600 text-2xl lg:text-3xl dark:bg-gradient-to-t pt-2'>Web Developer!!</span>
               </div>
 
-              <div className='flex w-full pt-9 gap-16'>
+              <div className='flex w-full pt-9 gap-7 md:gap-16'>
                 <BotonGitHub url='https://github.com/EcheverriaJesus'/>
                 <div className='flex justify-center items-center'>
                   <a href='mailto:jesus.echeverria017@gmail.com' target="_blank" rel="noopener noreferrer">

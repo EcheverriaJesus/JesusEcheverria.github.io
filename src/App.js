@@ -11,21 +11,21 @@ import Cursos from './Views/OpcionesMenu/Cursos';
 function App() {
   return (
     <div className=" bg-white dark:bg-gradient-to-r from-black to-gray-900">
-      <div className='margen'>
+      <div id="header" className='margen'>
         <Header />
       </div>
-      <main className='margen'>
-        <div id="Experiencia" className='py-20'>
+      <main className='margen space-y-10 pb-24'>
+        <div id="Experiencia">
           <Experiencia />
         </div>
-        <div id="Proyectos" className='py-20'>
+        <div id="Proyectos">
           <Proyectos />
         </div>
-        <div id="Componentes" className='py-20'>
+        <div id="Componentes">
           <Componentes />
         </div>
 
-        <div id="Cursos" className='py-20'>
+        <div id="Cursos">
           <Cursos />
         </div>
       </main>
