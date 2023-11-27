@@ -24,7 +24,7 @@ export default function Componentes() {
           <div className='text-center w-full'>
             <h4 className='text-xl lg:text-2xl font-semibold font-roboto dark:text-white'>Blog 📝</h4>
             <p className='font-roboto text-sm text-gray-700 dark:text-gray-400'>
-              Te compartó los paso para traducir Laravel Breeze y Jetstream a español.
+              Te compartó los paso para traducir Laravel Breeze y/o Jetstream a español.
             </p>
           </div>
           <div>
