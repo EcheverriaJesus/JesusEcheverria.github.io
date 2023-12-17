@@ -7,11 +7,11 @@ export default function Header() {
        <NavBar />
           <section className='flex fle-col w-full h-full lg:flex-row'>
             <div className='flex flex-col items-center justify-center w-full h-full lg:w-1/2 lg:items-start' data-aos="fade-up-right">
-              <div className='flex flex-col gap-2 text-white font-bold font-acme pt-0 md:pt-5 lg:pt-0'>
+              <div className='flex flex-col gap-2 text-white font-bold font-roboto pt-0 md:pt-5 lg:pt-0'>
                 <span className='text-black dark:text-white text-2xl lg:text-3xl pb-3'>Hola 👋, Soy</span>
-                <h1 className='bg-clip-text text-transparent bg-gradient-to-l from-violet-800 to-cyan-500 text-4xl lg:text-5xl dark:from-yellow-300 dark:to-cyan-500'>Jesús Noé Echeverria Medina</h1>
+                <h1 className='text-orange-500 text-4xl lg:text-4xl'>Jesús Noé Echeverria Medina</h1>
                 <span className='text-3xl text-black dark:text-white lg:text-3xl font-roboto'>Ingeniero en Sistemas Computacionales</span>
-                <span className='bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-fuchsia-600 text-2xl lg:text-3xl dark:bg-gradient-to-t pt-2'>Web Developer!!</span>
+                <span className='text-red-500 text-2xl lg:text-3xl pt-2 dark:text-yellow-300'>Web Developer!!</span>
               </div>
 
               <div className='flex w-full pt-9 gap-7 md:gap-16'>

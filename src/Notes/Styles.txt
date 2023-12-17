@@ -1,0 +1,8 @@
+color negro degradado para el fondo
+# dark:bg-gradient-to-r from-black to-gray-900
+
+-   Degradado del titulo en el header
+bg-clip-text text-transparent bg-gradient-to-l from-violet-800 to-cyan-500
+
+-   Degradado del subtitulo en el header
+bg-clip-text text-transparent bg-gradient-to-b from-purple-500 to-fuchsia-600
