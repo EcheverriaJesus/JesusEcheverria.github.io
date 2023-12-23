@@ -9,9 +9,9 @@ export default function ProjectComponent(props) {
                    {props.description}
                 </p>
             </div>
-            <div>
+            <div className='overflow-hidden rounded-lg '>
                 <a href={props.url} target='_blank' rel='noopener noreferrer'>
-                    <img className="rounded-lg hover:scale-95 duration-200" src={props.img} alt="Project" />
+                    <img className="transform transation duration-200 hover:scale-105" src={props.img} alt="Project" />
                 </a>
             </div>
         </article>

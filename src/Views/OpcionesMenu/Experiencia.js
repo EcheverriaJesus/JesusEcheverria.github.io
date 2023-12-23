@@ -36,7 +36,7 @@ export default function Experiencia() {
           <p className='text-gray-700 text-sm lg:text-base dark:text-gray-400'>Actualmente estoy laborando en una consultora de software, en la cual estoy desarrollando mis conocimientos tanto para el Back end como para el Front end.</p>
         </article>
         <article className='w-full md:w-1/2'>
-          <img src='/JesusEcheverria.github.io/Images/laboral.png' alt='' />
+          <img src='../../Images/laboral.png' alt='' />
         </article>
       </section>
 
@@ -55,7 +55,7 @@ export default function Experiencia() {
           {
             otherAreas.map((otherArea, index) => (
               <article key={index} className='flex flex-col w-full h-40 py-7'>
-                <h3 className='text-xl pb-5 lg:text-3xl font-semibold font-acme text-blue-700 dark:text-gray-300'>{otherArea.title}</h3>
+                <h3 className='text-xl pb-5 lg:text-3xl font-semibold font-acme text-orange-500'>{otherArea.title}</h3>
                 <p className='text-gray-700 dark:text-gray-400'>{otherArea.description}</p>
               </article>
             ))
