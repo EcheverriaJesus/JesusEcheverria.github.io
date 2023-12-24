@@ -9,7 +9,7 @@ module.exports = {
       fontFamily: {
         'acme': ["Acme", "sans"],
         'roboto': ["Roboto", "sans-serif"],
-        'cantora': ["Cantora One", "sans-serif"]
+        'montserrat': ["Montserrat", "sans-serif"]
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 50s linear infinite',
