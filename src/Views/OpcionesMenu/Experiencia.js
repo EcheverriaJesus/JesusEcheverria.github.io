@@ -1,6 +1,8 @@
 import React from 'react'
 import Slider from '../../Components/Slider'
 import ContributionComponent from '../../Components/ContributionComponent'
+import TitleComponents from '../../Components/TitleComponents'
+
 export default function Experiencia() {
   let certificados = [
     { name: "Constancia de Inglés", number: "1", url: "/JesusEcheverria.github.io/Images/ConstaLogros/C_Ingles.jpg" },
@@ -19,7 +21,9 @@ export default function Experiencia() {
   return (
     <div className='flex flex-col h-auto w-full space-y-20 lg:space-y-28 pb-24'>
       <section>
-        <h3 className='text-2xl text-left lg:text-center lg:text-5xl font-semibold font-acme text-gray-700 dark:text-white pb-5 lg:pb-20'>¡Contribuciones!</h3>
+        <div className='pb-10'>
+          <TitleComponents title='¡Contribuciones!' />
+        </div>
         <div className='space-y-10 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent'>
           <ContributionComponent title="Instituto Tecnólogico de Iguala" year="2023" description="Contribuí en el mantenimiento de la página del departamento de Sistemas y Computacion en el Tecnólogico de Iguala." />
           <ContributionComponent title="Sistema de Control Escolar" year="2023" description="Realicé un proyecto de un control escolar para una secundaria junto con un equipo de desarrollo." />
@@ -31,7 +35,7 @@ export default function Experiencia() {
       <section className='flex flex-col items-center w-full gap-0 lg:gap-10 lg:flex-row'>
         <article className='font-roboto space-y-2 lg:space-y-7 w-full lg:w-1/2'>
           <div className='flex'>
-            <h3 className='flex justify-center items-center gap-4 text-xl lg:text-5xl font-semibold font-acme text-gray-700 dark:text-gray-200'><div className='h-3 w-3 rounded-full bg-green-500 animate-pulse'></div>Estado Laboral___</h3>
+            <span className='h-3 w-3 rounded-full bg-green-500 animate-pulse'></span><TitleComponents title='Estado Laboral__' />
           </div>
           <p className='text-gray-700 text-sm lg:text-base dark:text-gray-400'>Actualmente estoy laborando en una consultora de software, en la cual estoy desarrollando mis conocimientos tanto para el Back end como para el Front end.</p>
         </article>
@@ -42,15 +46,15 @@ export default function Experiencia() {
 
       <section className='flex flex-col space-y-2 lg:space-y-7'>
         <div className='pb-7 text-left lg:text-center'>
-          <h3 className='text-2xl lg:text-5xl font-semibold font-acme text-gray-700 dark:text-white pb-3'>¡¡ Tecnologias !!🛠️</h3>
-          <h3 className='text-base pb-5 lg:text-base font-semibold font-roboto text-slate-500 dark:text-yellow-300'>-Cada dia se aprende algo nuevo-</h3>
+          <TitleComponents title='¡¡ Tecnologias !!🛠️' />
+          <span className='text-base pb-5 lg:text-base font-semibold font-roboto text-slate-500 dark:text-yellow-300'>-Cada dia se aprende algo nuevo-</span>
           <p className='text-gray-700 text-sm lg:text-base dark:text-gray-400'>Me gusta aprender cosas nuevas, y estoy dispuesto a seguir aprendiendo mas en cada lugar donde me encuentre...</p>
         </div>
         <Slider />
       </section>
 
       <section>
-        <h3 className='text-2xl text-left lg:text-center lg:text-5xl font-semibold font-acme text-gray-700 dark:text-white lg:pb-10'>Experiencia en otras áreas</h3>
+        <TitleComponents title='Experiencia en otras áreas' />
         <div className='flex flex-col lg:flex-row lg:gap-10'>
           {
             otherAreas.map((otherArea, index) => (
@@ -63,8 +67,8 @@ export default function Experiencia() {
         </div>
       </section>
 
-      <section className=''>
-        <h3 className='text-2xl text-left lg:text-center lg:text-5xl font-semibold font-acme text-gray-700 dark:text-white pb-3'>Certificados o Logros🏅</h3>
+      <sectio>
+        <TitleComponents title='Certificados o Logros🏅' />
         <div className='flex flex-col items-center gap-7 lg:gap-10 lg:flex-row md:justify-between pt-5 lg:pt-10'>
           {
             certificados.map((certificado, index) => (
@@ -72,7 +76,7 @@ export default function Experiencia() {
             ))
           }
         </div>
-      </section>
+      </sectio>
     </div>
   )
 }

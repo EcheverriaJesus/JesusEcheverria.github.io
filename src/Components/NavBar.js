@@ -34,11 +34,11 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-      <nav className='flex flex-col items-start w-full bg-white fixed top-0 left-0 z-50 py-2 pb-3 lg:flex-row margen lg:pt-4 lg:items-center dark:bg-gray-800 lg:dark:dark:bg-[#002733]'>
+      <nav className='flex flex-col items-start w-full bg-white fixed top-0 left-0 z-50 py-2 lg:flex-row margen lg:pt-4 lg:items-center dark:bg-gray-800 lg:dark:dark:bg-[#002733]'>
         {/* Nombre en el NavBar */}
         <section className='flex items-center justify-between w-full h-10 lg:w-auto'>
           <div className='font-bold text-2xl pr-9 dark:text-white'>
-            <Link to={"header"} spy={true} smooth={true} offset={0} duration={500} className='flex gap-2 cursor-pointer'>
+            <Link to={"header"} spy={true} smooth={true} offset={0} duration={500} className='flex gap-2 cursor-pointer font-signika'>
               <p className='first-letter:text-3xl first-letter:text-cyan-500'>Jesus</p>
               <p className='first-letter:text-3xl first-letter:text-cyan-500'>Echeverria</p>
             </Link>

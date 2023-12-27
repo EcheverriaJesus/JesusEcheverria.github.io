@@ -1,12 +1,13 @@
 import React from 'react'
 import ProjectComponent from '../../Components/ProjectComponent'
+import TitleComponents from '../../Components/TitleComponents'
 
 export default function Proyectos() {
   return (
     <div className='h-auto flex flex-col justify-center items-center'>
 
       <section className='flex flex-col justify-center items-center w-full'>
-        <h3 className='text-2xl lg:text-5xl font-semibold font-acme text-gray-700 dark:text-white pb-3'>Algunos de mis Proyectos</h3>
+        <TitleComponents title='Algunos de mis Proyectos' />
         <p className='text-gray-600 text-md lg:text-lg dark:text-gray-400 font-roboto'>Interfaces atractivas,  intuitivas y con un buen flujo de UX.</p>
       </section>
 

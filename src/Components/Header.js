@@ -5,16 +5,17 @@ export default function Header() {
   return (
     <header className='h-screen'>
        <NavBar />
-          <section className='flex fle-col w-full h-full lg:flex-row'>
-            <div className='flex flex-col items-center justify-center w-full h-full lg:w-1/2 lg:items-start' data-aos="fade-up-right">
-              <div className='flex flex-col gap-2 text-white font-bold font-roboto pt-0 md:pt-5 lg:pt-0'>
-                <span className='text-black dark:text-white text-2xl lg:text-3xl pb-3'>Hola 👋, Soy</span>
-                <h1 className='text-orange-500 text-4xl lg:text-4xl font-cantora'>Jesús Noé Echeverria Medina</h1>
-                <span className='text-3xl text-black dark:text-white lg:text-3xl font-roboto'>Ingeniero en Sistemas Computacionales</span>
+          <section className='flex w-full h-full lg:flex-row'>
+            <div className='flex flex-col items-center justify-start pt-24 w-full h-full lg:w-1/2 text-center lg:text-start lg:items-start lg:justify-center' data-aos="fade-up-right">
+              <div className='flex flex-col gap-2 text-white font-bold font-roboto pt-0 lg:pt-0'>
+                <span className='text-black dark:text-white text-2xl lg:text-3xl pb-3 font-signika'>Hola 👋, Soy</span>
+                <h1 className='hidden lg:flex text-orange-500 text-4xl font-cantora'>Jesús Noé Echeverria Medina</h1>
+                <h1 className='text-orange-500 text-4xl font-cantora lg:hidden'>Jesús Echeverria</h1>
+                <span className='text-3xl text-black dark:text-white lg:text-3xl font-signika'>Ingeniero en Sistemas Computacionales</span>
                 <span className='text-red-500 text-2xl lg:text-3xl pt-2 dark:text-yellow-300 font-cantora'>Web Developer!!</span>
               </div>
 
-              <div className='flex w-full pt-9 gap-7 md:gap-16'>
+              <div className='flex justify-center w-full pt-9 gap-7 md:gap-16 lg:justify-start'>
                 <BotonGitHub url='https://github.com/EcheverriaJesus'/>
                 <div className='flex justify-center items-center'>
                   <a href='mailto:jesus.echeverria017@gmail.com' target="_blank" rel="noopener noreferrer">
@@ -25,7 +26,7 @@ export default function Header() {
 
               <div className='md:hidden justify-center items-center'>
                 <div className='relative pt-24 w-full h-full flex justify-center items-center'>
-                  <div className='flex justify-center items-center w-56 h-40 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
+                  <div className='flex justify-center items-center w-56 h-40 rotate-2 rounded-md shadow-md shadow-orange-900 bg-gradient-to-r from-orange-800 to-orange-300'>
                     <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
                       <img className="w-32 rounded-full hover:scale-150 duration-200" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" alt="" />
                     </a>

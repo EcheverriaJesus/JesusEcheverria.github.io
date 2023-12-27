@@ -10,7 +10,8 @@ module.exports = {
         'acme': ["Acme", "sans"],
         'roboto': ["Roboto", "sans-serif"],
         'montserrat': ["Montserrat", "sans-serif"],
-        'cantora': ["Cantora One", "sans-serif"]
+        'cantora': ["Cantora One", "sans-serif"],
+        'signika': ["Signika Negative", "sans-serif"]
       },
       animation: {
         'infinite-scroll': 'infinite-scroll 50s linear infinite',
