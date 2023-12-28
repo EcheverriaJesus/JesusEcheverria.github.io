@@ -35,7 +35,7 @@ export default function Experiencia() {
       <section className='flex flex-col items-center w-full gap-0 lg:gap-10 lg:flex-row'>
         <article className='font-roboto space-y-2 lg:space-y-7 w-full lg:w-1/2'>
           <div className='flex'>
-            <span className='h-3 w-3 rounded-full bg-green-500 animate-pulse'></span><TitleComponents title='Estado Laboral__' />
+            <span className='h-3 w-3 rounded-full bg-green-500 animate-pulse'></span><TitleComponents title='Estado Laboral__x' />
           </div>
           <p className='text-gray-700 text-sm lg:text-base dark:text-gray-400'>Actualmente estoy laborando en una consultora de software, en la cual estoy desarrollando mis conocimientos tanto para el Back end como para el Front end.</p>
         </article>
@@ -67,7 +67,7 @@ export default function Experiencia() {
         </div>
       </section>
 
-      <sectio>
+      <section>
         <TitleComponents title='Certificados o Logros🏅' />
         <div className='flex flex-col items-center gap-7 lg:gap-10 lg:flex-row md:justify-between pt-5 lg:pt-10'>
           {
@@ -76,7 +76,7 @@ export default function Experiencia() {
             ))
           }
         </div>
-      </sectio>
+      </section>
     </div>
   )
 }
