@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   /* Modo Dark */
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   }
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
       </section>
 
-      <section className={`${abierto ? 'block' : 'hidden'} pt-3 lg:flex lg:items-center lg:w-auto`}>
+      <section className={`transition-all duration-300 ${abierto ? 'block' : 'hidden'} pt-3 lg:flex lg:items-center lg:w-auto`}>
         <ul className='space-y-3 lg:flex lg:space-x-5 lg:space-y-0'>
           {
             Links.map((link, index) => (
