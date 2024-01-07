@@ -9,7 +9,7 @@ export default function Header() {
             <div className='flex flex-col items-center justify-start pt-24 w-full h-full lg:w-1/2 text-center lg:text-start lg:items-start lg:justify-center' data-aos="fade-up-right">
               <div className='flex flex-col gap-2 text-white font-bold font-roboto pt-0 lg:pt-0'>
                 <span className='text-black dark:text-white text-2xl lg:text-3xl pb-3 font-signika 2xl:text-4xl'>Hola 👋, Soy</span>
-                <h1 className='hidden lg:flex text-orange-500 text-4xl font-cantora 2xl:text-5xl'>Jesús Noé Echeverria Medina</h1>
+                <h1 className='hidden lg:flex text-orange-500 text-4xl font-signika 2xl:text-5xl'>Jesús Noé Echeverria Medina</h1>
                 <h1 className='text-orange-500 text-4xl font-cantora lg:hidden'>Jesús Echeverria</h1>
                 <span className='text-3xl text-black dark:text-white lg:text-3xl font-signika'>Ingeniero en Sistemas Computacionales</span>
                 <span className='text-red-500 text-2xl lg:text-3xl pt-2 dark:text-yellow-300 font-cantora'>Web Developer!!</span>
@@ -44,7 +44,7 @@ export default function Header() {
 
             <div className='hidden lg:flex flex-col justify-center items-center w-1/2 h-full'>
               <div className='relative w-full max-h-40 flex justify-center items-center'>
-                <div className='flex justify-center items-center w-96 h-64 rotate-2 rounded-md shadow-md shadow-blue-900 bg-gradient-to-r from-blue-800 to-gray-300'>
+                <div className='flex justify-center items-center w-96 h-64 rotate-2 rounded-md shadow-md shadow-orange-900 bg-gradient-to-r from-orange-800 to-gray-300'>
                   <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
                     <img className="w-56 rounded-full hover:scale-150 duration-200 hover:grayscale" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" alt="" />
                   </a>

@@ -58,7 +58,7 @@ export default function FooterComponent() {
                     </div>
                 </div>
                 <p className='inline-flex text-gray-200 font-roboto text-xs'>Realizadó con React.js & Tailwind css.</p>
-                <p className='inline-flex text-gray-300 font-roboto text-[11px] pt-2'>última actualización 17/12/2023</p>
+                <p className='inline-flex text-gray-300 font-roboto text-[11px] pt-2'>última actualización: Diciembre 2023</p>
             </section>
         </footer>
     )
