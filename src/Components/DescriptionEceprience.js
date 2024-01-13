@@ -4,7 +4,7 @@ export default function DescriptionEceprience() {
     return (
         <div>
             
-            <section className="bg-gray-100 dark:bg-gray-900 py-10 2xl::py-20">
+            <section className="bg-gray-100 dark:bg-[#192b3d] py-10 2xl::py-20">
                 <div className="container px-6 py-10 mx-auto">
                     <h1 className="text-2xl font-semibold font-signika text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
                         Mi Experiencia !! 👨‍💻
