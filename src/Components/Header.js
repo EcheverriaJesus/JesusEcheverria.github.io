@@ -1,5 +1,6 @@
-import NavBar from '../Components/NavBar';
-import BotonGitHub from './BotonGitHub';
+import NavBar from '../Components/NavBar'
+import BotonGitHub from './BotonGitHub'
+import Perfil from '../Images/PerfilN.jpg'
 
 export default function Header() {
   return (
@@ -46,12 +47,12 @@ export default function Header() {
               <div className='relative w-full max-h-40 flex justify-center items-center'>
                 <div className='flex justify-center items-center w-96 h-64 rotate-2 rounded-md shadow-md shadow-orange-900 bg-gradient-to-r from-orange-800 to-gray-300'>
                   <a className='abosulute' href='https://www.instagram.com/jesus_echeverria_01/' target='_blank' rel="noopener noreferrer">
-                    <img className="w-56 rounded-full hover:scale-150 duration-200 hover:grayscale" src="/JesusEcheverria.github.io/Images/PerfilN.jpg" alt="" />
+                    <img className="w-56 rounded-full hover:scale-150 duration-200 hover:grayscale" src={Perfil} alt="" />
                   </a>
                 </div>
                 <img className="absolute top-4 right-16 w-12 animate-bounce" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Laravel.png" alt="" />
                 <img className="absolute top-48 right-16 w-16 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Electronjs.png" alt="" />
-                  <img className="absolute bottom-52 left-14 w-20 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/logo192.png" alt="" />
+                <img className="absolute bottom-52 left-14 w-20 girarLogo" src="/JesusEcheverria.github.io/Images/LogoHerramientas/logo192.png" alt="" />
                 <img className="absolute top-52 right-64 w-16 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Tailwind.png" alt="" />
                 <img className="absolute top-48 left-16 w-12 animate-bounce" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Git.png" alt="" />
                 <img className="absolute bottom-20 left-8 w-14 flotarIcono" src="/JesusEcheverria.github.io/Images/LogoHerramientas/Java.png" alt="" />

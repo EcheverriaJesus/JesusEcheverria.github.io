@@ -2,23 +2,6 @@ import React from 'react'
 import { SvgJava, SvgFigma, SvgElectron, SvgCake, SvgReact, SvgLaravel, SvgAsp, SvgPhp, SvgTailwind, SvgSass, SvgGit, SvgLivewire, SvgBlender } from '../svg/Svgs'
 
 export default function Slider() {
-      /* Opciones de las Tecnologias */
-/*   let tecnologia = [
-    { name: "SvgAsp", },
-    { name: "SvgFigma",},
-    { name: "SvgElectron" },
-    { name: "SvgCake" },
-    { name: "SvgReact" },
-    { name: "SvgLaravel", },
-    { name: "SvgJava",},
-    { name: "SvgPhp" },
-    { name: "SvgTailwind" },
-    { name: "SvgSass" },
-    { name: "SvgGit", },
-    { name: "SvgLivewire",},
-    { name: "SvgBlender" }
-  ]
- */
     return (
         <>
             <div
@@ -28,17 +11,8 @@ export default function Slider() {
         ul.insertAdjacentHTML('afterend', ul.outerHTML);
         ul.nextSibling.setAttribute('aria-hidden', 'true');
     })"
-                className="w-full py-3 inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+                className="w-full py-3 inline-flex  overflow-hidden"
             >
-        {/* <ul x-ref="logos" className="flex items-center justify-center md:justify-start [&_li]:mx-5 lg:[&_li]:mx-14 [&_img]:max-w-none animate-infinite-scroll">
-            {
-              tecnologia.map((tecnologia, index) => (
-                <li key={index}>
-                    <div className='w-10 imgs girarLogo' dangerouslySetInnerHTML={{ _html: tecnologia.name }} />
-                </li>
-              ))
-            }
-          </ul> */}
                 <ul x-ref="logos" className="flex items-center justify-center md:justify-start [&_li]:mx-3 lg:[&_li]:mx-14 [&_img]:max-w-none animate-infinite-scroll">
                     <li>
                         <div className='w-10 imgs' dangerouslySetInnerHTML={{ __html: SvgAsp }} />
