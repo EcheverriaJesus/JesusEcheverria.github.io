@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/JesusEcheverria.github.io/static/css/main.e40ba203.css",
-    "main.js": "/JesusEcheverria.github.io/static/js/main.809f0522.js",
-    "static/js/787.16b9702e.chunk.js": "/JesusEcheverria.github.io/static/js/787.16b9702e.chunk.js",
-    "static/media/laboral.png": "/JesusEcheverria.github.io/static/media/laboral.f921682334f2fcbebb24.png",
-    "static/media/Developers3.jpg": "/JesusEcheverria.github.io/static/media/Developers3.e5778d3014721cf9003d.jpg",
-    "static/media/Cinteotl3.png": "/JesusEcheverria.github.io/static/media/Cinteotl3.901a531b9fc9db2659e6.png",
-    "static/media/PerfilN.jpg": "/JesusEcheverria.github.io/static/media/PerfilN.817844543df566342ba7.jpg",
-    "static/media/SCHOOLBOOK2.png": "/JesusEcheverria.github.io/static/media/SCHOOLBOOK2.b2ac0ffbaa3fb470bfe0.png",
-    "static/media/PosSystem6.png": "/JesusEcheverria.github.io/static/media/PosSystem6.23f1848049a28011d88f.png",
-    "static/media/Laravel.png": "/JesusEcheverria.github.io/static/media/Laravel.e87e4b65f4622d9da0af.png",
-    "index.html": "/JesusEcheverria.github.io/index.html",
-    "main.e40ba203.css.map": "/JesusEcheverria.github.io/static/css/main.e40ba203.css.map",
-    "main.809f0522.js.map": "/JesusEcheverria.github.io/static/js/main.809f0522.js.map",
-    "787.16b9702e.chunk.js.map": "/JesusEcheverria.github.io/static/js/787.16b9702e.chunk.js.map"
+    "main.css": "./static/css/main.e974c5f7.css",
+    "main.js": "./static/js/main.5af76d4d.js",
+    "static/js/787.16b9702e.chunk.js": "./static/js/787.16b9702e.chunk.js",
+    "static/media/laboral.png": "./static/media/laboral.f921682334f2fcbebb24.png",
+    "static/media/Developers3.jpg": "./static/media/Developers3.e5778d3014721cf9003d.jpg",
+    "static/media/Cinteotl3.png": "./static/media/Cinteotl3.901a531b9fc9db2659e6.png",
+    "static/media/PerfilN.jpg": "./static/media/PerfilN.817844543df566342ba7.jpg",
+    "static/media/JBEspañol.png": "./static/media/JBEspañol.e51a5a9be3e3e3cd16cd.png",
+    "static/media/SCHOOLBOOK2.png": "./static/media/SCHOOLBOOK2.b2ac0ffbaa3fb470bfe0.png",
+    "static/media/UIVERSE.png": "./static/media/UIVERSE.c67dff3e4f712319109b.png",
+    "static/media/PosSystem6.png": "./static/media/PosSystem6.23f1848049a28011d88f.png",
+    "static/media/Laravel.png": "./static/media/Laravel.e87e4b65f4622d9da0af.png",
+    "index.html": "./index.html",
+    "main.e974c5f7.css.map": "./static/css/main.e974c5f7.css.map",
+    "main.5af76d4d.js.map": "./static/js/main.5af76d4d.js.map",
+    "787.16b9702e.chunk.js.map": "./static/js/787.16b9702e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e40ba203.css",
-    "static/js/main.809f0522.js"
+    "static/css/main.e974c5f7.css",
+    "static/js/main.5af76d4d.js"
   ]
 }
