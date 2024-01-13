@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from '../../Components/Slider'
 import ContributionComponent from '../../Components/ContributionComponent'
 import TitleComponents from '../../Components/TitleComponents'
+import developer from '../../Images/laboral.png'
 
 export default function Experiencia() {
 /*   let certificados = [
@@ -40,12 +41,12 @@ export default function Experiencia() {
           <p className='text-gray-700 text-sm lg:text-base dark:text-gray-400'>Actualmente estoy laborando en una consultora de software, en la cual estoy desarrollando mis conocimientos tanto para el Back end como para el Front end.</p>
         </article>
         <article className='w-full md:w-1/2'>
-          <img src='/JesusEcheverria.github.io/Images/laboral.png' alt='' />
+          <img src={developer} alt='' />
         </article>
       </section>
 
 
-      <section class="bg-white dark:bg-gray-900">
+      {/* <section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
         <div class="lg:flex lg:items-center">
             <div class="w-full space-y-12 lg:w-1/2 ">
@@ -114,13 +115,7 @@ export default function Experiencia() {
             </div>
         </div>
 
-       
-
         <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-         
-
-            
-
             <div class="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
                 <svg class="h-5 mt-1 text-gray-500 fill-current dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278.7 36.3"><g><path class="st0" d="M238.1 14.4v21.9h7V21.7h25.6v14.6h7V14.4h-39.6m6.2-7.1h27c3.8-.7 6.5-4.1 7.3-7.3H237c.8 3.2 3.6 6.5 7.3 7.3m-27.5 29c3.5-1.5 5.4-4.1 6.2-7.1h-31.5V.1h-7.1v36.2h32.4M131.9 7.2h25c3.8-1.1 6.9-4 7.7-7.1H125v21.4h32.4V29H132c-4 1.1-7.4 3.8-9.1 7.3h41.5V14.4H132l-.1-7.2m-61.6.1h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.5 7.4 7.3m0 14.3h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.5 7.4 7.3m0 14.7h27c3.8-.7 6.6-4.1 7.3-7.3H62.9c.8 3.2 3.6 6.6 7.4 7.3M0 .1c.8 3.2 3.6 6.4 7.3 7.2h11.4l.6.2v28.7h7.1V7.5l.6-.2h11.4c3.8-1 6.5-4 7.3-7.2V0L0 .1"></path></g></svg>
             </div>
@@ -130,7 +125,7 @@ export default function Experiencia() {
             </div>
         </div>
     </div>
-</section>
+</section> */}
 
       <section className='flex flex-col space-y-2 lg:space-y-7'>
         <div className='pb-7 text-left lg:text-center'>

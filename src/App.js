@@ -4,10 +4,9 @@ import Header from './Components/Header';
 import Experiencia from './Views/OpcionesMenu/Experiencia';
 import Proyectos from './Views/OpcionesMenu/Proyectos';
 import Componentes from './Views/OpcionesMenu/Componentes';
-import Cursos from './Views/OpcionesMenu/Cursos';
+/* import Cursos from './Views/OpcionesMenu/Cursos'; */
 import FooterComponent from './Components/FooterComponent';
 import DescriptionEceprience from './Components/DescriptionEceprience';
-import Prueba from './Components/Prueba';
 
 function App() {
   return (
@@ -21,7 +20,7 @@ function App() {
         <DescriptionEceprience />
       </div>
       <main className='margen space-y-10 pb-24'>
-        <div><Prueba />
+        <div>
           <Experiencia />
         </div>
         <div id="Proyectos">
@@ -30,9 +29,9 @@ function App() {
         <div id="Componentes">
           <Componentes />
         </div>
-        <div id="Cursos">
+        {/* <div id="Cursos">
           <Cursos />
-        </div>
+        </div> */}
       </main>
  {/*      <div class='flex justify-center w-full'>
         <div class='flex flex-col items-center bg-white w-72 h-auto pt-5 pb-7 border border-gray-200 rounded-lg space-y-8'>
